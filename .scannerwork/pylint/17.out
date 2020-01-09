@@ -1,0 +1,12 @@
+************* Module perfect_tense_conversion
+tense_conversion\perfect_tense_conversion.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+tense_conversion\perfect_tense_conversion.py:10: [R0205(useless-object-inheritance), PerfectTenseConversion] Class 'PerfectTenseConversion' inherits from object, can be safely removed from bases in python3
+tense_conversion\perfect_tense_conversion.py:24: [C0200(consider-using-enumerate), PerfectTenseConversion.perfect_tense_con] Consider using enumerate instead of iterating with range and len
+tense_conversion\perfect_tense_conversion.py:27: [R0123(literal-comparison), PerfectTenseConversion.perfect_tense_con] Comparison to literal
+tense_conversion\perfect_tense_conversion.py:10: [R0903(too-few-public-methods), PerfectTenseConversion] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.83/10 (previous run: 7.83/10, +0.00)
+
+

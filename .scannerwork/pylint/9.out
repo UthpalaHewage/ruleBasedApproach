@@ -1,0 +1,51 @@
+************* Module to_passive_voice
+passive_conversion\to_passive_voice.py:44: [C0301(line-too-long), ] Line too long (107/100)
+passive_conversion\to_passive_voice.py:46: [C0301(line-too-long), ] Line too long (107/100)
+passive_conversion\to_passive_voice.py:50: [C0301(line-too-long), ] Line too long (110/100)
+passive_conversion\to_passive_voice.py:62: [C0301(line-too-long), ] Line too long (108/100)
+passive_conversion\to_passive_voice.py:63: [C0301(line-too-long), ] Line too long (107/100)
+passive_conversion\to_passive_voice.py:64: [C0301(line-too-long), ] Line too long (113/100)
+passive_conversion\to_passive_voice.py:75: [C0330(bad-continuation), ] Wrong hanging indentation (remove 4 spaces).
+                                                     str(sentence[idx].pos_) == "NOUN" or str(
+
+                                                 |   ^
+passive_conversion\to_passive_voice.py:76: [C0330(bad-continuation), ] Wrong hanging indentation (add 8 spaces).
+                                                 sentence[idx].pos_) == "PROPN")]
+
+                                                 ^       |
+passive_conversion\to_passive_voice.py:84: [C0301(line-too-long), ] Line too long (106/100)
+passive_conversion\to_passive_voice.py:85: [C0301(line-too-long), ] Line too long (110/100)
+passive_conversion\to_passive_voice.py:87: [C0301(line-too-long), ] Line too long (113/100)
+passive_conversion\to_passive_voice.py:88: [C0301(line-too-long), ] Line too long (112/100)
+passive_conversion\to_passive_voice.py:131: [C0301(line-too-long), ] Line too long (119/100)
+passive_conversion\to_passive_voice.py:140: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:143: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:148: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:151: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+passive_conversion\to_passive_voice.py:10: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:11: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:12: [C0103(invalid-name), ] Constant name "matcher" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:15: [C0115(missing-class-docstring), ConversionToPassive] Missing class docstring
+passive_conversion\to_passive_voice.py:15: [R0205(useless-object-inheritance), ConversionToPassive] Class 'ConversionToPassive' inherits from object, can be safely removed from bases in python3
+passive_conversion\to_passive_voice.py:36: [C0116(missing-function-docstring), ConversionToPassive.sub_root_obj_detection] Missing function or method docstring
+passive_conversion\to_passive_voice.py:36: [R0914(too-many-locals), ConversionToPassive.sub_root_obj_detection] Too many local variables (16/15)
+passive_conversion\to_passive_voice.py:38: [C0200(consider-using-enumerate), ConversionToPassive.sub_root_obj_detection] Consider using enumerate instead of iterating with range and len
+passive_conversion\to_passive_voice.py:41: [R0123(literal-comparison), ConversionToPassive.sub_root_obj_detection] Comparison to literal
+passive_conversion\to_passive_voice.py:38: [R1702(too-many-nested-blocks), ConversionToPassive.sub_root_obj_detection] Too many nested blocks (8/5)
+passive_conversion\to_passive_voice.py:111: [C0116(missing-function-docstring), ConversionToPassive.get_object_bound] Missing function or method docstring
+passive_conversion\to_passive_voice.py:130: [C0116(missing-function-docstring), ConversionToPassive.create_passive] Missing function or method docstring
+passive_conversion\to_passive_voice.py:130: [R0913(too-many-arguments), ConversionToPassive.create_passive] Too many arguments (6/5)
+passive_conversion\to_passive_voice.py:170: [W0702(bare-except), ConversionToPassive.create_passive] No exception type(s) specified
+passive_conversion\to_passive_voice.py:137: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:145: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:156: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:163: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:130: [R0911(too-many-return-statements), ConversionToPassive.create_passive] Too many return statements (9/6)
+passive_conversion\to_passive_voice.py:174: [C0116(missing-function-docstring), ConversionToPassive.check_negation] Missing function or method docstring
+
+-----------------------------------
+
+Your code has been rated at 5.87/10
+
+

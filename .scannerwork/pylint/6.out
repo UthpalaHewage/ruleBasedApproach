@@ -1,0 +1,13 @@
+************* Module informal_word_replacement
+informal_word_replacement.py:65: [C0301(line-too-long), ] Line too long (110/100)
+informal_word_replacement.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+informal_word_replacement.py:10: [R0205(useless-object-inheritance), InformalWordReplacement] Class 'InformalWordReplacement' inherits from object, can be safely removed from bases in python3
+informal_word_replacement.py:18: [R0914(too-many-locals), InformalWordReplacement.informal_word_detection] Too many local variables (17/15)
+informal_word_replacement.py:35: [C0200(consider-using-enumerate), InformalWordReplacement.informal_word_detection] Consider using enumerate instead of iterating with range and len
+informal_word_replacement.py:10: [R0903(too-few-public-methods), InformalWordReplacement] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.57/10 (previous run: 8.57/10, +0.00)
+
+

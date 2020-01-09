@@ -1,0 +1,10 @@
+************* Module sent_modify_fact_detection
+sent_modify_fact_detection.py:47: [C0301(line-too-long), ] Line too long (136/100)
+sent_modify_fact_detection.py:6: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+sent_modify_fact_detection.py:9: [R0205(useless-object-inheritance), SentModifyFactDetection] Class 'SentModifyFactDetection' inherits from object, can be safely removed from bases in python3
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.75/10 (previous run: 8.75/10, +0.00)
+
+

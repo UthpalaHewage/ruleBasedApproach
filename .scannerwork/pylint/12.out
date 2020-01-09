@@ -1,0 +1,11 @@
+************* Module sentence_segmentation
+sentence_segmentation.py:27: [C0301(line-too-long), ] Line too long (125/100)
+sentence_segmentation.py:11: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+sentence_segmentation.py:14: [R0205(useless-object-inheritance), SentenceSegmentation] Class 'SentenceSegmentation' inherits from object, can be safely removed from bases in python3
+sentence_segmentation.py:14: [R0903(too-few-public-methods), SentenceSegmentation] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.26/10 (previous run: 8.70/10, -0.43)
+
+

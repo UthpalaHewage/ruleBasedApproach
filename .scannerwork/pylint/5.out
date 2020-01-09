@@ -1,0 +1,14 @@
+************* Module final_output
+final_output.py:23: [C0301(line-too-long), ] Line too long (103/100)
+final_output.py:29: [C0301(line-too-long), ] Line too long (101/100)
+final_output.py:5: [R0205(useless-object-inheritance), FinalOutput] Class 'FinalOutput' inherits from object, can be safely removed from bases in python3
+final_output.py:14: [C0116(missing-function-docstring), FinalOutput.final_output] Missing function or method docstring
+final_output.py:15: [C0200(consider-using-enumerate), FinalOutput.final_output] Consider using enumerate instead of iterating with range and len
+final_output.py:17: [R0123(literal-comparison), FinalOutput.final_output] Comparison to literal
+final_output.py:5: [R0903(too-few-public-methods), FinalOutput] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.08/10 (previous run: 7.08/10, +0.00)
+
+

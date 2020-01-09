@@ -1,0 +1,13 @@
+************* Module replacement
+passive_conversion\replacement.py:9: [C0301(line-too-long), ] Line too long (109/100)
+passive_conversion\replacement.py:13: [C0301(line-too-long), ] Line too long (111/100)
+passive_conversion\replacement.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+passive_conversion\replacement.py:3: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
+passive_conversion\replacement.py:6: [C0116(missing-function-docstring), replace_pronoun] Missing function or method docstring
+passive_conversion\replacement.py:8: [R1705(no-else-return), replace_pronoun] Unnecessary "else" after "return"
+
+-----------------------------------
+
+Your code has been rated at 2.50/10
+
+

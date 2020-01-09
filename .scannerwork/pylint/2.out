@@ -1,0 +1,11 @@
+************* Module command_detection
+command_detection.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+command_detection.py:10: [R0205(useless-object-inheritance), CommandDetection] Class 'CommandDetection' inherits from object, can be safely removed from bases in python3
+command_detection.py:20: [C0200(consider-using-enumerate), CommandDetection.command_det] Consider using enumerate instead of iterating with range and len
+command_detection.py:10: [R0903(too-few-public-methods), CommandDetection] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+

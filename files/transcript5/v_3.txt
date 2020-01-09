@@ -1,0 +1,41 @@
+In this lecture, we'll cover problems with pronouns.
+Pronouns can be tricky.
+Some errors with pronouns are quite common, and this lecture will clarify some of the
+more concerning aspects.
+When it comes to 'me', 'myself', and 'I', the correct word to use depends on whether you're the
+subject or the object of a sentence.
+Let's look at the parts of a sentence.
+The subject of a sentence tells the reader who or what the sentence is about.
+The verb conveys what the action or state of the subject is,
+and the object of the sentence tells the reader who or what is affected by the subject's action.
+In the sentence 'she gave the plans to the builder', 'she' is the subject, 'gave' is the verb,
+'the plans' are the direct object, and 'the builder' is the indirect object.
+Use 'I' when you are the subject of the sentence,
+even if you are referring to someone else as well as yourself.
+'I drank the milk'.
+'Ben and I ate breakfast'.
+Use 'me' when you are the direct or indirect object of your sentence.
+'The girl saw me'.
+'He made a sandwich for me'.
+Here's a simple test to figure out whether you are the object to the sentence, and to use 'me',
+or the subject, and to use 'I':
+'The supervisor congratulated Josie and me' is correct, because you could just as easily say 
+'the supervisor congratulated me'; not 'I'.
+You should use 'myself' only emphatically or reflexively.
+'I myself knew the answer'. This sentence would have the same meaning without 'myself'.
+The word 'myself' adds emphasis.
+'I told myself that this would be the last time'.
+In this sentence I am both the subject and the object.
+I am doing the telling, and being told. 'Myself' is the correct word to use.
+The pronoun must agree in person, number, and gender with the noun that it substitutes for and refers to.
+The link needs to be close, clear, explicit, specific, and unmistakable.
+A pronoun must unambiguously connect with its antecedent.
+Let's look at this sentence: 'The chef and her daughter were pleased with her progress'.
+Is it clear whether we are referring to the progress of the chef, or her daughter?
+Can you see why it's important for a pronoun to agree with its antecedent?
+Finally, we come to the question of 'who' or 'whom'.
+Many writers believe that 'whom' is on its way out because it can sound very pompous.
+Some even believe it's circling the drain. However, it is still used in expressions like
+'to whom it may concern'.
+In the sentence 'the girl whom you've been dancing with is on her way to the top',
+most writers would use 'who' rather than 'whom', and it's fine to do that.

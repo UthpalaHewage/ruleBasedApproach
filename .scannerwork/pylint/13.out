@@ -1,0 +1,9 @@
+************* Module verb_sub_container
+tense_conversion\Models\verb_sub_container.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+tense_conversion\Models\verb_sub_container.py:2: [C0103(invalid-name), ] Constant name "verb_sub_dict" doesn't conform to UPPER_CASE naming style
+
+----------------------------------------------------------------------
+
+Your code has been rated at -10.00/10 (previous run: -10.00/10, +0.00)
+
+

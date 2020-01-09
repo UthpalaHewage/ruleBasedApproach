@@ -1,0 +1,11 @@
+************* Module fact_dict
+Model\fact_dict.py:5: [C0103(invalid-name), ] Constant name "facts_on_colon" doesn't conform to UPPER_CASE naming style
+Model\fact_dict.py:7: [C0103(invalid-name), ] Constant name "facts_on_quotes" doesn't conform to UPPER_CASE naming style
+Model\fact_dict.py:9: [C0103(invalid-name), ] Constant name "facts_on_phrases" doesn't conform to UPPER_CASE naming style
+Model\fact_dict.py:11: [C0103(invalid-name), ] Constant name "facts_on_semicolon" doesn't conform to UPPER_CASE naming style
+
+------------------------------------------------------------------
+
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+

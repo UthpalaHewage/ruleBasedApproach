@@ -1,0 +1,13 @@
+************* Module word_filteration
+word_filteration.py:8: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+word_filteration.py:10: [C0103(invalid-name), ] Constant name "matcher" doesn't conform to UPPER_CASE naming style
+word_filteration.py:13: [R0205(useless-object-inheritance), WordFilteration] Class 'WordFilteration' inherits from object, can be safely removed from bases in python3
+word_filteration.py:29: [C0200(consider-using-enumerate), WordFilteration.remove_words_by_rule_based_matching] Consider using enumerate instead of iterating with range and len
+word_filteration.py:13: [R0903(too-few-public-methods), WordFilteration] Too few public methods (1/2)
+word_filteration.py:5: [C0411(wrong-import-order), ] third party import "from spacy.matcher import Matcher" should be placed before "import fact_detection"
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.06/10 (previous run: 8.06/10, +0.00)
+
+
