@@ -1,5 +1,6 @@
 """final output of the formatting module"""
 import Model.fact_dict as fact_dict
+import Model.paragraph as para
 
 
 class FinalOutput(object):
@@ -33,8 +34,8 @@ class FinalOutput(object):
 
         for sent in self.final_sent_list:
             self.final_para = self.final_para + " " + sent
-            print(sent)
-
+            # print(sent)
+        para.final_para = self.final_para.strip()
         print("---------------------------------------------")
         print("formatted content")
-        print(self.final_para.strip())
+        # print(self.final_para.strip())
