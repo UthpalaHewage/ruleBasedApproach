@@ -24,9 +24,8 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        # with open('files/transcript3/v_3.txt', 'r') as file:
-        with open('files/v_2.txt', 'r') as file:
-        # with open('files/collection/selected 6 transcripts/4_2.Verb tenses, verb moods, and voice of verbs.txt','r') as file:
+        # with open('files/v_2.txt', 'r') as file:
+        with open('files/collection/selected 6 transcripts/4_2.Verb tenses, verb moods, and voice of verbs.txt','r') as file:
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks

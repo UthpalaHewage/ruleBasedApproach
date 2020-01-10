@@ -2,49 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d3a08c-0e4a-479e-9318-294ca1255a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/formal_word_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/formal_word_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/informal_word_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/informal_word_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/adjectives.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/informal collection.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/kachal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/sampletranscript.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/3_3.Common sentence level problems.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/4_2.Verb tenses, verb moods, and voice of verbs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/4_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/5_2.Forms and functions of pronouns.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/6_1.Adjectives Function, use, and degrees of comparison.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/6_2.Adjective sequencing, punctuation, and determiners.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/7_2.Conjunctions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/7_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/4.1 Finite and non-finite verbs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/5.1 Form and function of nouns.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/5.3 Pronoun problems.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/8.2 Paragraphs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/test/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/test/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/selected 6 transcripts/extra/test/v_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript2/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript2/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript2/v_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript3/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript3/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript3/v_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript4/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript4/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript5/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript5/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript5/v_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript6/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript6/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript7/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript7/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript8/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript8/v_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript9/v_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transcript9/v_2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_segmentation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1578667040667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1578667434587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ruleBasedApproach$one.coverage" NAME="one Coverage Results" MODIFIED="1573208262307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -62,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="122">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#125#137#0" expanded="true" />
               </folding>
@@ -350,12 +307,12 @@
       <workItem from="1578546405096" duration="13852000" />
       <workItem from="1578568360121" duration="1897000" />
       <workItem from="1578586369715" duration="668000" />
-      <workItem from="1578626747489" duration="28830000" />
+      <workItem from="1578626747489" duration="28945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359738000" />
+    <option name="totallyTimeSpent" value="359853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -733,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="122">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#125#137#0" expanded="true" />
           </folding>
