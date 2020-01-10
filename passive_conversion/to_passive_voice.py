@@ -16,7 +16,7 @@ class ConversionToPassive(object):
     # import the method for the final output of the module
     final_output_obj = final_output.FinalOutput()
     # list of personal pronoun list
-    word_list = ["i", "I", "she", "he", "we", "you", "they", "it"]
+    word_list = [ "I", "She", "He", "We", "You", "They", "It"]
     # list of aux_list patterns
     aux_pattern_list = ["do not", "does not"]
     # get use of obj_patterns_for identification of patterns of  object occurrences
@@ -129,7 +129,6 @@ class ConversionToPassive(object):
     @staticmethod
     def create_passive(doc, root_idx, obj_index, obj_start, obj_end, negation_availability):
         # 'obj_end + 2' check whether sent ends with fullstop or not. If end with '.' need not to keep space in-between
-        print(doc)
         try:
 
             if len(doc) > obj_end + 2:

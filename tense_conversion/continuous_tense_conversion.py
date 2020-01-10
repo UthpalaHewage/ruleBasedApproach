@@ -26,17 +26,27 @@ class ContinuousTenseConversion(object):
             # the sent not marked with #-(for command det) and ###-(for future tense det) earlier
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
-                content = dict_container.verb_sub_dict.get(i)
+                sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
+                # check for the dep_=ROOT and pos_=VERB combination to get as the base root of the sentence
+                root_verb_index = [idx for idx in range(len(sentence)) if
+                                   str(sentence[idx].dep_) == "ROOT" and str(sentence[idx].pos_) == "VERB"]
 
-                if content is not None:
-                    root_verb = content[0]
-                    subject = content[1]
-                    sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
+                if len(root_verb_index) != 0:
+                    # check for the (dep_=nsubj or dep_=nsubjpass)
+                    # combination out from the sent filtered out above   to get as the subject of the sentence
+                    sub_index = [idx for idx in range(len(sentence)) if
+                                 str(sentence[idx].dep_) == "nsubj" or
+                                 str(sentence[idx].dep_) == "nsubjpass"
+                                 and idx < root_verb_index[0]]
 
-                    if str(sentence[root_verb].tag_) == "VBG":
+                    if len(sub_index) != 0:
+                        root_verb = root_verb_index[0]
+                        subject = sub_index[0]
 
-                        result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
-                        if result is not False:
-                            sent_list[i] = result[0].lower() + result[1:]
+                        if str(sentence[root_verb].tag_) == "VBG":
+
+                            result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
+                            if result is not False:
+                                sent_list[i] = result[0].lower() + result[1:]
 
         self.past_tense_conversion_obj.past_tense_con(sent_list)

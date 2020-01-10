@@ -24,33 +24,32 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        # with open('files/informal collection.txt', 'r') as file:
-        with open('files/selected 6 transcripts/6_1.Adjectives Function, use, and degrees of comparison.txt',
-                  'r') as file:
+        with open('files/informal collection.txt', 'r') as file:
+        # with open('files/selected 6 transcripts/extra/test/v_1.txt','r') as file:
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks
-            all_sent_list = tokenize.sent_tokenize(data.replace("\n", " "))
+        all_sent_list = tokenize.sent_tokenize(data.replace("\n", " "))
 
-            sent_list = []
-            # obtain sentences
-            for sent in all_sent_list:
-                sent = str(sent)
-                # filter out the questions available - with question_detection.py
-                check_question = self.question_detection_obj.identify_questions(sent)
-                # check for the availability of the questions
-                if check_question:
-                    # check whether the sentence is a question
-                    pass
-                else:
-                    # make the first letter of the sentence into lower case
-                    sentence = sent[0].lower() + sent[1:]
-                    # make the array with list of sentences
-                    sent_list.append(sentence.strip())
-                    # print(sent)
+        sent_list = []
+        # obtain sentences
+        for sent in all_sent_list:
+            sent = str(sent)
+            # filter out the questions available - with question_detection.py
+            check_question = self.question_detection_obj.identify_questions(sent)
+            # check for the availability of the questions
+            if check_question:
+                # check whether the sentence is a question
+                pass
+            else:
+                # make the first letter of the sentence into lower case
+                sentence = sent[0].lower() + sent[1:]
+                # make the array with list of sentences
+                sent_list.append(sentence.strip())
+                # print(sent)
 
-            self.contraction_removal_obj.expand_contractions(sent_list)
-            self.print_para()
+        self.contraction_removal_obj.expand_contractions(sent_list)
+        self.print_para()
 
     @staticmethod
     def print_para():
