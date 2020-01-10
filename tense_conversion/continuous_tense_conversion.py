@@ -1,8 +1,8 @@
 """Identify the sentences in continuous form and make the tense conversion """
 import spacy
-import tense_conversion.Models.verb_sub_container as dict_container
 import tense_conversion.past_tense_conversion as past_tense_conversion
 import tense_conversion.sent_modifier as modifier
+import Shared.subject_root_finder as finder
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -27,26 +27,16 @@ class ContinuousTenseConversion(object):
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
-                # check for the dep_=ROOT and pos_=VERB combination to get as the base root of the sentence
-                root_verb_index = [idx for idx in range(len(sentence)) if
-                                   str(sentence[idx].dep_) == "ROOT" and str(sentence[idx].pos_) == "VERB"]
+                sub_and_root =  finder.subject_and_root(sentence)
+                if sub_and_root is not None:
 
-                if len(root_verb_index) != 0:
-                    # check for the (dep_=nsubj or dep_=nsubjpass)
-                    # combination out from the sent filtered out above   to get as the subject of the sentence
-                    sub_index = [idx for idx in range(len(sentence)) if
-                                 str(sentence[idx].dep_) == "nsubj" or
-                                 str(sentence[idx].dep_) == "nsubjpass"
-                                 and idx < root_verb_index[0]]
+                    root_verb = sub_and_root[0]
+                    subject = sub_and_root[1]
 
-                    if len(sub_index) != 0:
-                        root_verb = root_verb_index[0]
-                        subject = sub_index[0]
+                    if str(sentence[root_verb].tag_) == "VBG":
 
-                        if str(sentence[root_verb].tag_) == "VBG":
-
-                            result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
-                            if result is not False:
-                                sent_list[i] = result[0].lower() + result[1:]
+                        result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
+                        if result is not False:
+                            sent_list[i] = result[0].lower() + result[1:]
 
         self.past_tense_conversion_obj.past_tense_con(sent_list)

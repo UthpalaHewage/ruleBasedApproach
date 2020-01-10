@@ -6,6 +6,7 @@ from spacy.matcher import PhraseMatcher
 import tense_conversion.Models.verb_sub_container as dict_container
 import passive_conversion.replacement as replace
 import final_output
+import Shared.subject_root_finder as finder
 
 inflect = inflect.engine()
 nlp = spacy.load('en_core_web_sm')
@@ -16,7 +17,7 @@ class ConversionToPassive(object):
     # import the method for the final output of the module
     final_output_obj = final_output.FinalOutput()
     # list of personal pronoun list
-    word_list = [ "I", "She", "He", "We", "You", "They", "It"]
+    word_list = ["I", "She", "He", "We", "You", "They", "It"]
     # list of aux_list patterns
     aux_pattern_list = ["do not", "does not"]
     # get use of obj_patterns_for identification of patterns of  object occurrences
@@ -41,68 +42,57 @@ class ConversionToPassive(object):
             if sent_list[i][0] is not "#":
                 content = dict_container.verb_sub_dict.get(i)
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
-                # check for the dep_=ROOT and pos_=VERB combination to get as the base root of the sentence
-                root_verb_index = [idx for idx in range(len(sentence)) if
-                                   str(sentence[idx].dep_) == "ROOT" and str(sentence[idx].pos_) == "VERB"]
+                sub_and_root = finder.subject_and_root(sentence)
+                if sub_and_root is not None:
+                    root_verb = sub_and_root[0]
+                    subject = sub_and_root[1]
 
-                if len(root_verb_index) != 0:
-                    # check for the (dep_=nsubj or dep_=nsubjpass)
-                    # combination out from the sent filtered out above   to get as the subject of the sentence
+                    if str(sentence[subject]) in self.word_list:
+                        # check for the presence of comma to detect high complex sentences
+                        comma_check = [idx for idx in range(len(sentence)) if str(sentence[idx]) in ","]
+                        # sent for the replacement of the subject with "it" or "they" in replacement.py
+                        # that is because the rule based conversion is quite difficult with complex sentences
+                        if len(comma_check) != 0:
+                            replaced_result = replace.replace_pronoun(sentence, subject)
+                            sent_list[i] = replaced_result
+                        # if sentence is not a complex sentence
+                        else:
+                            # get the object index with required conditions
+                            obj_index = [idx for idx in range(len(sentence)) if
+                                         (str(sentence[idx].dep_) == "obj" or
+                                          str(sentence[idx].dep_) == "dobj")
+                                         and idx > root_verb and (
+                                                 str(sentence[idx].pos_) == "NOUN" or str(
+                                             sentence[idx].pos_) == "PROPN")]
+                            if len(obj_index) != 0:
+
+                                result = self.get_object_bound(sentence)
+
+                                if result != 0:
+                                    object_start_idx = result[0]
+                                    object_end_idx = result[1]
+                                    # check for the negation availability ; a boolean will be returned
+                                    negation_availability = self.check_negation(str(sentence[:root_verb]))
+                                    # responsible for passive sentence creation
+                                    result = self.create_passive(sentence, int(root_verb), int(obj_index[0]),
+                                                                 int(object_start_idx), int(object_end_idx),
+                                                                 negation_availability)
+                                    sent_list[i] = result.strip()
+
+                            else:
+                                # replace_pronoun - call for the pronoun replacing method
+                                replaced_result = replace.replace_pronoun(sentence, subject)
+                                sent_list[i] = replaced_result
+                else:
+                    # get the subject index with required conditions
                     sub_index = [idx for idx in range(len(sentence)) if
                                  str(sentence[idx].dep_) == "nsubj" or
                                  str(sentence[idx].dep_) == "nsubjpass"
-                                 and idx < root_verb_index[0]]
-
-                    if len(sub_index) != 0:
-                        root_verb = root_verb_index[0]
-                        subject = sub_index[0]
-
-                        if str(sentence[subject]) in self.word_list:
-                            # check for the presence of comma to detect high complex sentences
-                            comma_check = [idx for idx in range(len(sentence)) if str(sentence[idx]) in ","]
-                            # sent for the replacement of the subject with "it" or "they" in replacement.py
-                            # that is because the rule based conversion is quite difficult with complex sentences
-                            if len(comma_check) != 0:
-                                replaced_result = replace.replace_pronoun(sentence, subject)
-                                sent_list[i] = replaced_result
-                            # if sentence is not a complex sentence
-                            else:
-                                # get the object index with required conditions
-                                obj_index = [idx for idx in range(len(sentence)) if
-                                             (str(sentence[idx].dep_) == "obj" or
-                                              str(sentence[idx].dep_) == "dobj")
-                                             and idx > root_verb and (
-                                                     str(sentence[idx].pos_) == "NOUN" or str(
-                                                 sentence[idx].pos_) == "PROPN")]
-                                if len(obj_index) != 0:
-
-                                    result = self.get_object_bound(sentence)
-
-                                    if result != 0:
-                                        object_start_idx = result[0]
-                                        object_end_idx = result[1]
-                                        # check for the negation availability ; a boolean will be returned
-                                        negation_availability = self.check_negation(str(sentence[:root_verb]))
-                                        # responsible for passive sentence creation
-                                        result = self.create_passive(sentence, int(root_verb), int(obj_index[0]),
-                                                                     int(object_start_idx), int(object_end_idx),
-                                                                     negation_availability)
-                                        sent_list[i] = result.strip()
-
-                                else:
-                                    # replace_pronoun - call for the pronoun replacing method
-                                    replaced_result = replace.replace_pronoun(sentence, subject)
-                                    sent_list[i] = replaced_result
-                    else:
-                        # get the subject index with required conditions
-                        sub_index = [idx for idx in range(len(sentence)) if
-                                     str(sentence[idx].dep_) == "nsubj" or
-                                     str(sentence[idx].dep_) == "nsubjpass"
-                                     and str(sentence[idx]) in self.word_list]
-                        if len(sub_index) != 0 and content is None:
-                            # replace_pronoun - call for the pronoun replacing method
-                            replaced_result = replace.replace_pronoun(sentence, sub_index[0])
-                            sent_list[i] = replaced_result
+                                 and str(sentence[idx]) in self.word_list]
+                    if len(sub_index) != 0 and content is None:
+                        # replace_pronoun - call for the pronoun replacing method
+                        replaced_result = replace.replace_pronoun(sentence, sub_index[0])
+                        sent_list[i] = replaced_result
 
         self.final_output_obj.final_output(sent_list)
 
