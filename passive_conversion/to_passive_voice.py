@@ -3,7 +3,6 @@ import inflect
 from pyinflect import getInflection
 
 from spacy.matcher import PhraseMatcher
-import tense_conversion.Models.verb_sub_container as dict_container
 import passive_conversion.replacement as replace
 import final_output
 import Shared.subject_root_finder as finder
@@ -40,7 +39,6 @@ class ConversionToPassive(object):
             # the sent not marked with #-(for command det) and ###-(for future tense det) earlier
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
-                content = dict_container.verb_sub_dict.get(i)
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
                 sub_and_root = finder.subject_and_root(sentence)
                 if sub_and_root is not None:
@@ -89,7 +87,7 @@ class ConversionToPassive(object):
                                  str(sentence[idx].dep_) == "nsubj" or
                                  str(sentence[idx].dep_) == "nsubjpass"
                                  and str(sentence[idx]) in self.word_list]
-                    if len(sub_index) != 0 and content is None:
+                    if len(sub_index) != 0 and sub_and_root is None:
                         # replace_pronoun - call for the pronoun replacing method
                         replaced_result = replace.replace_pronoun(sentence, sub_index[0])
                         sent_list[i] = replaced_result
