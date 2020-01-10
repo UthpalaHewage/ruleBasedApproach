@@ -24,7 +24,7 @@ class FutureTenseIdentification(object):
             # get the sent not marked with #-(for command det) earlier
             if sent_list[i][0] is not "#":
                 sentense = nlp(sent_list[i][0].upper() + sent_list[i][1:])
-
+                # use subject_root_finder to detect subj & root_verb of the sentence
                 sub_and_root = finder.subject_and_root(sentense)
                 if sub_and_root is not None:
                     root_verb = sub_and_root[0]

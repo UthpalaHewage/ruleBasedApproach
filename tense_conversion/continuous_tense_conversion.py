@@ -27,7 +27,8 @@ class ContinuousTenseConversion(object):
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
-                sub_and_root =  finder.subject_and_root(sentence)
+                # use subject_root_finder to detect subj & root_verb of the sentence
+                sub_and_root = finder.subject_and_root(sentence)
                 if sub_and_root is not None:
 
                     root_verb = sub_and_root[0]

@@ -26,12 +26,12 @@ class PerfectTenseConversion(object):
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
+                # use subject_root_finder to detect subj & root_verb of the sentence
                 sub_and_root = finder.subject_and_root(sentence)
                 if sub_and_root is not None:
                     root_verb = sub_and_root[0]
                     subject = sub_and_root[1]
-
-                    # check for the availability of past participle verb(VBN)
+                   # check for the availability of past participle verb(VBN)
                     if str(sentence[root_verb].tag_) == "VBN":
                         result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
                         if result is not False:

@@ -1,3 +1,4 @@
+"""Detect the subject and root_verb of a sentence at tense conversion and passive conversion"""
 import spacy
 
 nlp = spacy.load('en_core_web_sm')
