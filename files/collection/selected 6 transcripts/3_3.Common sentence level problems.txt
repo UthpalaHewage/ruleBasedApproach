@@ -29,7 +29,7 @@ For example: The thing about a sentence with a listlike
 form is that there are a number of tiny points with independent bits of meaning that are
 set out in the sentence in a line so that the series of words and phrases reads like
 so many pieces of popcorn strung out on a string. [from Linda Flower's Problem-solving
-Strategies for Writing]
+Strategies for Writing].
 I don't know about you, but I thought that sentence was never going to end! Could you
 do better?
 Avoid 'is-ness'-relying on parts of the 'weak' verb 'to be'
