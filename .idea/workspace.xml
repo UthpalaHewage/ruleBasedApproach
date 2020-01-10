@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d3a08c-0e4a-479e-9318-294ca1255a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tense_conversion/past_tense_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tense_conversion/past_tense_conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tense_conversion/perfect_tense_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tense_conversion/perfect_tense_conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" beforeDir="false" afterPath="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +11,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1578634560990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1578634774021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ruleBasedApproach$one.coverage" NAME="one Coverage Results" MODIFIED="1573208262307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="87">
               <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tense_conversion/past_tense_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="255">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="33" selection-end-column="45" />
               <folding>
                 <element signature="e#74#86#0" expanded="true" />
               </folding>
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tense_conversion/continuous_tense_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="276">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#79#91#0" expanded="true" />
               </folding>
@@ -105,17 +103,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shared/subject_root_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="344">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tense_conversion/future_tense_identification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="3" column="67" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="67" />
+            <state relative-caret-position="215">
+              <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+              <folding>
+                <element signature="e#66#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +160,8 @@
       <find>Object_Matcher</find>
       <find>example</find>
       <find>use</find>
-      <find>print</find>
       <find>put</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,7 +201,6 @@
         <option value="$PROJECT_DIR$/files/selected 6 transcripts/extra/8.2 Paragraphs.txt" />
         <option value="$PROJECT_DIR$/files/sample.txt" />
         <option value="$PROJECT_DIR$/Model/informal_word_list.txt" />
-        <option value="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" />
         <option value="$PROJECT_DIR$/Model/formal_word_list.txt" />
         <option value="$PROJECT_DIR$/files/question.txt" />
         <option value="$PROJECT_DIR$/Model/paragraph.py" />
@@ -213,6 +213,7 @@
         <option value="$PROJECT_DIR$/tense_conversion/past_tense_conversion.py" />
         <option value="$PROJECT_DIR$/tense_conversion/perfect_tense_conversion.py" />
         <option value="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" />
+        <option value="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" />
       </list>
     </option>
   </component>
@@ -404,12 +405,12 @@
       <workItem from="1578546405096" duration="13852000" />
       <workItem from="1578568360121" duration="1897000" />
       <workItem from="1578586369715" duration="668000" />
-      <workItem from="1578626747489" duration="7807000" />
+      <workItem from="1578626747489" duration="8029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338715000" />
+    <option name="totallyTimeSpent" value="338937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -429,7 +430,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3797054" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13584287" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -657,34 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/subject_root_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tense_conversion/continuous_tense_conversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="e#79#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tense_conversion/future_tense_identification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -712,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tense_conversion/past_tense_conversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#74#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/informal collection.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -731,10 +698,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="87">
           <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/subject_root_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tense_conversion/continuous_tense_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#79#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tense_conversion/past_tense_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="e#74#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tense_conversion/future_tense_identification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+          <folding>
+            <element signature="e#66#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
