@@ -146,7 +146,7 @@ class ConversionToPassive(object):
                         return str(doc[obj_start:obj_end]) + " is not " + str(
                             getInflection(doc[root_idx].lemma_, tag='VBN')[0]) + "."
                     else:
-                        return str(doc[obj_start:obj_end]) + " are not" + str(
+                        return str(doc[obj_start:obj_end]) + " are not " + str(
                             getInflection(doc[root_idx].lemma_, tag='VBN')[0]) + "."
                 else:
                     if inflect.singular_noun(str(doc[obj_index])) is False:
