@@ -53,7 +53,7 @@ class InformalWordReplacement(object):
                     if previous_end is None:
                         new_sent = new_sent + str(sentense[:match[1]]).strip() + " " + formal_word
                         # if next character is not a punctuation need to put a space
-                        if str(sentense[match[2]]) not in punctuation_list:
+                        if len(sentense) != match[2] and str(sentense[match[2]]) not in punctuation_list:
                             new_sent = new_sent + " "
                             previous_end = match[2]
                         else:
@@ -64,7 +64,7 @@ class InformalWordReplacement(object):
                         # continuation of sentence
                         new_sent = new_sent + str(sentense[previous_end:match[1]]).strip() + " " + formal_word
                         # if next character is not a punctuation need to put a space
-                        if str(sentense[match[2]]) not in punctuation_list:
+                        if len(sentense) != match[2] and str(sentense[match[2]]) not in punctuation_list:
                             new_sent = new_sent + " "
                             previous_end = match[2]
                         else:
