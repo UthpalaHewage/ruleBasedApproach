@@ -3,9 +3,10 @@
 # Import spaCy and load the language library
 import spacy
 from nltk import tokenize
-import contraction_removal
-import question_detection
+
+
 import Model.paragraph as para
+import contraction_removal
 
 # load small version of english library
 # python -m spacy download en_core_web_sm
@@ -14,41 +15,24 @@ nlp = spacy.load('en_core_web_sm')
 
 class SentenceSegmentation(object):
     """class for the sentence segmentation of the transcript"""
+
     # import the method for the conversion of the contracted words into expanded form
     contraction_removal_obj = contraction_removal.ContractionRemoval()
-    # import the method for the filteration of the questions in the content
-    question_detection_obj = question_detection.QuestionDetection()
 
     def __init__(self):
         pass
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        with open('files/collection/test1.txt', 'r') as file:
-        # with open('files/collection/selected 6 transcripts/6_1.Adjectives Function, use, and degrees of comparison.txt','r') as file:
+        with open('files/collection/informal collection.txt', 'r') as file:
+        # with open('files/collection/test1.txt', 'r') as file:
+        # with open('files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt','r') as file:
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks
         all_sent_list = tokenize.sent_tokenize(data.replace("\n", " "))
 
-        sent_list = []
-        # obtain sentences
-        for sent in all_sent_list:
-            sent = str(sent)
-            # filter out the questions available - with question_detection.py
-            check_question = self.question_detection_obj.identify_questions(sent)
-            # check for the availability of the questions
-            if check_question:
-                # check whether the sentence is a question
-                pass
-            else:
-                # make the first letter of the sentence into lower case
-                sentence = sent[0].lower() + sent[1:]
-                # make the array with list of sentences
-                sent_list.append(sentence.strip())
-                # print(sent)
-
-        self.contraction_removal_obj.expand_contractions(sent_list)
+        self.contraction_removal_obj.expand_contractions(all_sent_list)
         self.print_para()
 
     @staticmethod

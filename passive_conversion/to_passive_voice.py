@@ -85,9 +85,9 @@ class ConversionToPassive(object):
                 else:
                     # get the subject index with required conditions
                     sub_index = [idx for idx in range(len(sentence)) if
-                                 str(sentence[idx].dep_) == "nsubj" or
-                                 str(sentence[idx].dep_) == "nsubjpass"
-                                 and str(sentence[idx]) in self.word_list]
+                                 (str(sentence[idx].dep_) == "nsubj" or
+                                 str(sentence[idx].dep_) == "nsubjpass")
+                                 and (str(sentence[idx]) in self.word_list)]
                     if len(sub_index) != 0 and sub_and_root is None:
                         # replace_pronoun - call for the pronoun replacing method
                         replaced_result = replace.replace_pronoun(sentence, sub_index[0])

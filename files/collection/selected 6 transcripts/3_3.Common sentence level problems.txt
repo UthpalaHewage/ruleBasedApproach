@@ -24,7 +24,7 @@ and enclosed in a sealed envelope, and endorsed with a reference number, and sha
 at the address below.
 Could you rewrite this sentence by eliminating the 'and's'? You'll have a chance
 later to look more closely at this sentence and have a go at rewriting it more effectively.
-Avoid listlike sentences:
+Avoid listlike sentences.
 For example: The thing about a sentence with a listlike
 form is that there are a number of tiny points with independent bits of meaning that are
 set out in the sentence in a line so that the series of words and phrases reads like
@@ -32,9 +32,8 @@ so many pieces of popcorn strung out on a string. [from Linda Flower's Problem-s
 Strategies for Writing].
 I don't know about you, but I thought that sentence was never going to end! Could you
 do better?
-Avoid 'is-ness'-relying on parts of the 'weak' verb 'to be'
-For example:
-The intention of the tax office is to audit their records.
+Avoid 'is-ness'-relying on parts of the 'weak' verb 'to be'.
+For example: The intention of the tax office is to audit their records.
 Or, how about some Shakespeare?
 This tyrant, whose sole name is a blister on our tongues, was once thought honest.
 What verbs could replace 'is' to make these sentences stronger?

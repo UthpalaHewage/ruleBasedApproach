@@ -3,7 +3,7 @@
 import re
 # to install contractions - pip install contractions
 from contractions import contractions_dict
-import word_filteration
+import fact_detection
 
 
 class ContractionRemoval(object):
@@ -13,8 +13,8 @@ class ContractionRemoval(object):
     # then wont detect as pronoun so need to forcefully give the expansion form
     contractions_dict.update({'i\'m': 'i am'})
     contractions_dict.update({'here\'s': 'here is'})
-    # import the method for the filteration of unwanted words found in the content
-    word_filteration_obj = word_filteration.WordFilteration()
+    fact_detection_obj = fact_detection.FactDetection()
+
 
     def __init__(self):
         pass
@@ -37,8 +37,10 @@ class ContractionRemoval(object):
         removed_contractions_sentence_list = []
         for sentense in sentence_list:
             # sub-for replacing the contraction with expanded form
-            expanded_text = contractions_pattern.sub(expand_match, sentense)
+            # sent_list[i][0].upper() + sent_list[i][1:]
+            expanded_text = str(contractions_pattern.sub(expand_match, sentense[0].lower()+ sentense[1:]))
+            # print(expanded_text)
             # join the expanded text into the original sentence
-            removed_contractions_sentence_list.append(str(expanded_text))
+            removed_contractions_sentence_list.append(expanded_text[0].upper()+expanded_text[1:])
 
-        self.word_filteration_obj.remove_words_by_rule_based_matching(removed_contractions_sentence_list)
+        self.fact_detection_obj.detect_by_phrase_matching(removed_contractions_sentence_list)

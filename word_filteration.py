@@ -1,9 +1,10 @@
 """Make the words filtered out as per defined"""
 
 import spacy
-import fact_detection
 from spacy.matcher import Matcher
 import Model.rule_based_word_patterns as pattern_dict
+import sent_modify_fact_detection
+import Shared.all_fact_list_keys as all_fact_info
 
 nlp = spacy.load('en_core_web_sm')
 # Import the Matcher library
@@ -12,14 +13,16 @@ matcher = Matcher(nlp.vocab)
 
 class WordFilteration(object):
     """class for the filteration of the word as suits with different patterns"""
-    # import the method for the detection of the facts found in the content
-    fact_detection_obj = fact_detection.FactDetection()
+    # import the method for the modification of the sentences from which facts are extracted
+    sent_modify_fact_detection_obj = sent_modify_fact_detection.SentModifyFactDetection()
 
     def __init__(self):
         pass
 
     # added the word patterns of same word that need to be filtered out
     def remove_words_by_rule_based_matching(self, sent_list):
+        # get the keys for the facts detected
+        keys_list = all_fact_info.get_list_of_facts()
         """remove the words that need to be filtered out- match to different patterns declared"""
         filtered_list = []
         # getting ist of patterns for removal of unnecessary word
@@ -53,7 +56,9 @@ class WordFilteration(object):
             # check for the sentence fragments whether it satisfy the
             # general conditions to be a sentence (availability of min of 3 word)
             # split is used here to get the number of word(count with aid of white space)
-            if len(sent_list[i].strip().split()) > 2:
-                filtered_list.append(sent_list[i])
-
-        self.fact_detection_obj.detect_by_phrase_matching(filtered_list)
+            if len(sent_list[i].strip().split()) > 2 or sent_list[i][0] is "#" or i in keys_list:
+                pass
+            else:
+                sent_list[i] = "#"
+        # self.fact_detection_obj.detect_by_phrase_matching(filtered_list)
+        self.sent_modify_fact_detection_obj.sent_modify(sent_list)

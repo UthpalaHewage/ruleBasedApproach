@@ -1,10 +1,16 @@
 """Filter out the questions found on the transcript"""
+import word_filteration
 
 
 class QuestionDetection(object):
     """class for the detection of the questions out of the sentences"""
 
+    # import the method for the filteration of unwanted words found in the content
+    word_filteration_obj = word_filteration.WordFilteration()
+
     def __init__(self):
+
+        # constructor
         pass
 
     @classmethod
@@ -14,3 +20,23 @@ class QuestionDetection(object):
             return True
 
         return False
+
+    def question_removal(self, all_sent_list):
+        # obtain sentences
+        for i in range(len(all_sent_list)):
+            sent = str(all_sent_list[i])
+            # filter out the questions available - with question_detection.py
+            check_question = self.identify_questions(sent)
+            # check for the availability of the questions
+            if check_question:
+                # print(sent)
+                # check whether the sentence is a question
+                all_sent_list[i] = "#"
+            else:
+                # make the first letter of the sentence into lower case
+                sentence = sent[0].lower() + sent[1:]
+                # make the array with list of sentences
+                all_sent_list[i] = sentence.strip()
+                # print(sent)
+        # self.contraction_removal_obj.expand_contractions(all_sent_list)
+        self.word_filteration_obj.remove_words_by_rule_based_matching(all_sent_list)

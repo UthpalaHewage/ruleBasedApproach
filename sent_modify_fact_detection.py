@@ -1,7 +1,7 @@
 """Modify the sentence fragments that remain after the extraction of the facts at fact_detection"""
 import spacy
 import command_detection
-import Model.fact_dict as fact_container_dict
+import Shared.all_fact_list_keys as all_fact_info
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -18,8 +18,7 @@ class SentModifyFactDetection(object):
     def sent_modify(self, sent_list):
         """modify the sentences fragments remains"""
         # get the keys for the facts detected
-        keys_list = self.get_list_of_facts()
-
+        keys_list = all_fact_info.get_list_of_facts()
         for key in keys_list:
             # print(sent_list[key])
             tokenized_sent = nlp(sent_list[key])
@@ -38,15 +37,5 @@ class SentModifyFactDetection(object):
 
         self.command_detection_obj.command_det(sent_list)
 
-    @classmethod
-    def get_list_of_facts(cls):
-        """used to obtain the details(keys) of the facts extracted"""
-        keys = []
 
-        # unit the 3 dict obtained through the fact collection
-        all_dict = {**fact_container_dict.facts_on_phrases, **fact_container_dict.facts_on_quotes, **fact_container_dict.facts_on_colon}
 
-        for key in all_dict:
-            keys.append(key)
-
-        return keys

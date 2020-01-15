@@ -2,16 +2,18 @@
 import re
 import spacy
 from spacy.matcher import PhraseMatcher
-import sent_modify_fact_detection
+
 import Model.fact_dict as fact_container_dict
+import question_detection
 
 nlp = spacy.load('en_core_web_sm')
 
 
 class FactDetection(object):
     """class for the detection of the facts out of the content in the transcript"""
-    # import the method for the modification of the sentences from which facts are extracted
-    sent_modify_fact_detection_obj = sent_modify_fact_detection.SentModifyFactDetection()
+
+    # import the method for the filteration of the questions in the content
+    question_detection_obj = question_detection.QuestionDetection()
 
     # define the pattern for the identification of quoted text
     pattern = re.compile(r"['\"](.*?)['\"]")
@@ -85,12 +87,14 @@ class FactDetection(object):
             if result is not None:
                 # dictionary is updated with the index respect to the fact identified with quotes
                 fact_container_dict.facts_on_quotes.update({i: sent_list[i][result.start():]})
-
                 # if the sentence(output) begins with a quote
-                # it will completely replaced with ## for later use
+                # it will completely replaced with ### for later use
                 if result.start() == 0:
-                    sent_list[i] = "##"
+                    sent_list[i] = "###"
                 else:
+
                     sent_list[i] = sent_list[i][:result.start()]
 
-        self.sent_modify_fact_detection_obj.sent_modify(sent_list)
+                    # filter out the questions available - with question_detection.py
+        self.question_detection_obj.question_removal(sent_list)
+

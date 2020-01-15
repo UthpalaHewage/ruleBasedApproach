@@ -46,7 +46,7 @@ class FutureTenseIdentification(object):
                                 # print("")
 
                                 # replace the future tense sentences with "###"
-                                sent_list[i] = "###"
+                                sent_list[i] = "##"
 
         # #print the updated index of dict with the respective sentense
         # for key in dict.verb_sub_dict:
