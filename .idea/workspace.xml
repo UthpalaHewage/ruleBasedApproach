@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="97d3a08c-0e4a-479e-9318-294ca1255a61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/all_fact_list_keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/all_fact_list_keys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/command_detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/collection/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/collection/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentence_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_segmentation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1579085189656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1579086251636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ruleBasedApproach$one.coverage" NAME="one Coverage Results" MODIFIED="1573208262307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="121">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="e#125#137#0" expanded="true" />
               </folding>
@@ -32,18 +32,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3145">
-              <caret line="185" column="5" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="1513">
               <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -52,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="95" lean-forward="true" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -64,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="104">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="e#105#117#0" expanded="true" />
               </folding>
@@ -76,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/word_filteration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
+            <state relative-caret-position="408">
               <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
               <folding>
                 <element signature="e#50#62#0" expanded="true" />
@@ -115,11 +106,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fact_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding>
+                <element signature="e#50#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -209,19 +212,19 @@
         <option value="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" />
         <option value="$PROJECT_DIR$/tense_conversion/sent_modifier.py" />
         <option value="$PROJECT_DIR$/files/collection/informal collection.txt" />
-        <option value="$PROJECT_DIR$/Shared/all_fact_list_keys.py" />
         <option value="$PROJECT_DIR$/contraction_removal.py" />
-        <option value="$PROJECT_DIR$/fact_detection.py" />
         <option value="$PROJECT_DIR$/sent_modify_fact_detection.py" />
         <option value="$PROJECT_DIR$/question_detection.py" />
         <option value="$PROJECT_DIR$/final_output.py" />
         <option value="$PROJECT_DIR$/files/collection/selected 6 transcripts/3_3.Common sentence level problems.txt" />
         <option value="$PROJECT_DIR$/passive_conversion/replacement.py" />
         <option value="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" />
-        <option value="$PROJECT_DIR$/files/collection/test1.txt" />
         <option value="$PROJECT_DIR$/word_filteration.py" />
         <option value="$PROJECT_DIR$/sentence_segmentation.py" />
+        <option value="$PROJECT_DIR$/files/collection/test1.txt" />
+        <option value="$PROJECT_DIR$/Shared/all_fact_list_keys.py" />
         <option value="$PROJECT_DIR$/command_detection.py" />
+        <option value="$PROJECT_DIR$/fact_detection.py" />
       </list>
     </option>
   </component>
@@ -259,6 +262,11 @@
               <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
+              <item name="Shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,22 +416,24 @@
       <workItem from="1578975011844" duration="3661000" />
       <workItem from="1579023481687" duration="464000" />
       <workItem from="1579065121605" duration="15731000" />
-      <workItem from="1579084819520" duration="455000" />
+      <workItem from="1579084819520" duration="1008000" />
+      <workItem from="1579085994706" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397411000" />
+    <option name="totallyTimeSpent" value="398301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.43862522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fact_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="88" column="94" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
-          <folding>
-            <element signature="e#50#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tense_conversion/future_tense_identification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -679,6 +679,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_filteration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#50#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/question_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -703,57 +723,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="121">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="e#125#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_filteration.py">
+    <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="e#50#62#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/command_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="104">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="e#105#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
+    <entry file="file://$PROJECT_DIR$/fact_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="111">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="95" lean-forward="true" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
         </state>
       </provider>
     </entry>

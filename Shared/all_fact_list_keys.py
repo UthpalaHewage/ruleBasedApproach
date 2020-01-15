@@ -7,7 +7,7 @@ def get_list_of_facts():
 
     # unit the 3 dict obtained through the fact collection
     all_dict = {**fact_container_dict.facts_on_phrases, **fact_container_dict.facts_on_quotes,
-                **fact_container_dict.facts_on_colon}
+                **fact_container_dict.facts_on_colon, **fact_container_dict.facts_on_semicolon}
 
     for key in all_dict:
         keys.append(key)
