@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d3a08c-0e4a-479e-9318-294ca1255a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shared/all_fact_list_keys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contraction_removal.py" beforeDir="false" afterPath="$PROJECT_DIR$/contraction_removal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fact_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/fact_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/collection/informal collection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/collection/informal collection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/collection/selected 6 transcripts/3_3.Common sentence level problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/collection/selected 6 transcripts/3_3.Common sentence level problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/command_detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/collection/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/collection/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_output.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_output.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passive_conversion/replacement.py" beforeDir="false" afterPath="$PROJECT_DIR$/passive_conversion/replacement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sent_modify_fact_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/sent_modify_fact_detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_segmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" beforeDir="false" afterPath="$PROJECT_DIR$/tense_conversion/future_tense_identification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word_filteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_filteration.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +14,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1579079126051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ruleBasedApproach$main.coverage" NAME="main Coverage Results" MODIFIED="1579085189656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ruleBasedApproach$one.coverage" NAME="one Coverage Results" MODIFIED="1573208262307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="223">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="e#125#137#0" expanded="true" />
               </folding>
@@ -43,39 +32,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="56" column="106" selection-start-line="56" selection-end-line="56" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final_output.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="e#44#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passive_conversion/replacement.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="3145">
               <caret line="185" column="5" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="5" />
             </state>
           </provider>
@@ -94,9 +53,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding>
+                <element signature="e#105#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word_filteration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="e#50#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -105,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sent_modify_fact_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="493">
               <caret line="29" column="72" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="72" />
               <folding>
                 <element signature="e#100#112#0" expanded="true" />
@@ -117,17 +109,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="3145">
               <caret line="185" column="4" selection-start-line="185" selection-start-column="2" selection-end-line="185" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="58" selection-start-column="58" selection-end-column="58" />
+            <state relative-caret-position="119">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -191,7 +183,6 @@
         <option value="$PROJECT_DIR$/punctuation_removal.py" />
         <option value="$PROJECT_DIR$/quoted_text.py" />
         <option value="$PROJECT_DIR$/Shared/contractions_dict" />
-        <option value="$PROJECT_DIR$/command_detection.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/tense_conversion/Models/verb_sub_container.py" />
         <option value="$PROJECT_DIR$/tense_conversion/Models/perfect_tense_conversion.py" />
@@ -219,17 +210,18 @@
         <option value="$PROJECT_DIR$/tense_conversion/sent_modifier.py" />
         <option value="$PROJECT_DIR$/files/collection/informal collection.txt" />
         <option value="$PROJECT_DIR$/Shared/all_fact_list_keys.py" />
-        <option value="$PROJECT_DIR$/word_filteration.py" />
         <option value="$PROJECT_DIR$/contraction_removal.py" />
         <option value="$PROJECT_DIR$/fact_detection.py" />
         <option value="$PROJECT_DIR$/sent_modify_fact_detection.py" />
         <option value="$PROJECT_DIR$/question_detection.py" />
         <option value="$PROJECT_DIR$/final_output.py" />
         <option value="$PROJECT_DIR$/files/collection/selected 6 transcripts/3_3.Common sentence level problems.txt" />
-        <option value="$PROJECT_DIR$/files/collection/test1.txt" />
         <option value="$PROJECT_DIR$/passive_conversion/replacement.py" />
         <option value="$PROJECT_DIR$/passive_conversion/to_passive_voice.py" />
+        <option value="$PROJECT_DIR$/files/collection/test1.txt" />
+        <option value="$PROJECT_DIR$/word_filteration.py" />
         <option value="$PROJECT_DIR$/sentence_segmentation.py" />
+        <option value="$PROJECT_DIR$/command_detection.py" />
       </list>
     </option>
   </component>
@@ -266,29 +258,7 @@
             <path>
               <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="selected 6 transcripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="passive_conversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="tense_conversion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +268,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/FYP-formattingModule" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -437,23 +407,23 @@
       <workItem from="1578887166795" duration="4644000" />
       <workItem from="1578975011844" duration="3661000" />
       <workItem from="1579023481687" duration="464000" />
-      <workItem from="1579065121605" duration="14099000" />
+      <workItem from="1579065121605" duration="15731000" />
+      <workItem from="1579084819520" duration="455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395324000" />
+    <option name="totallyTimeSpent" value="397411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.41571194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,11 +510,6 @@
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tense_conversion/sent_modifier.py">
@@ -639,23 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_filteration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="58" column="96" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
-          <folding>
-            <element signature="e#50#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contraction_removal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -686,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/3_3.Common sentence level problems.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
@@ -700,9 +641,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/4_2.Verb tenses, verb moods, and voice of verbs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="106" selection-start-line="56" selection-end-line="56" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/final_output.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="255">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#44#79#0" expanded="true" />
@@ -710,31 +665,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
+    <entry file="file://$PROJECT_DIR$/passive_conversion/replacement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" selection-start-column="58" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="185" column="4" selection-start-line="185" selection-start-column="2" selection-end-line="185" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="3145">
           <caret line="185" column="5" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passive_conversion/replacement.py">
+    <entry file="file://$PROJECT_DIR$/question_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sent_modify_fact_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="72" />
+          <folding>
+            <element signature="e#100#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="185" column="4" selection-start-line="185" selection-start-column="2" selection-end-line="185" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -748,37 +713,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/4_2.Verb tenses, verb moods, and voice of verbs.txt">
+    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sent_modify_fact_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="72" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="72" />
-          <folding>
-            <element signature="e#100#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="106" selection-start-line="56" selection-end-line="56" selection-end-column="109" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="223">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="e#125#137#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_filteration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#50#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#105#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/collection/test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
