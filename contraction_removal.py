@@ -12,6 +12,7 @@ class ContractionRemoval(object):
     # when 'I' losses its capitalization when at first place
     # then wont detect as pronoun so need to forcefully give the expansion form
     contractions_dict.update({'i\'m': 'i am'})
+    contractions_dict.update({'i\'ll': 'i will'})
     contractions_dict.update({'here\'s': 'here is'})
     fact_detection_obj = fact_detection.FactDetection()
 
