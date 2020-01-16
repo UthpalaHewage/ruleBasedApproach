@@ -11,7 +11,6 @@ AGAIN_P1 = [{'LOWER': 'again'}, {'IS_PUNCT': True, 'OP': '?'}]
 GREETINGS_P1 = [{'LOWER': 'greetings'}, {'IS_PUNCT': True, 'OP': '?'}]
 SOMETIMES_P1 = [{'LOWER': 'sometimes'}, {'IS_PUNCT': True, 'OP': '?'}]
 FINALLY_P1 = [{'LOWER': 'finally'}, {'IS_PUNCT': True, 'OP': '?'}]
-HERE_P1 = [{'LOWER': 'here'}, {'IS_PUNCT': True, 'OP': '?'}]
 INDEED_P1 = [{'LOWER': 'indeed'}, {'IS_PUNCT': True, 'OP': '?'}]
 EVERYONE_P1 = [{'LOWER': 'everyone'}, {'IS_PUNCT': True, 'OP': '?'}]
 HI_P1 = [{'LOWER': 'hi'}, {'IS_PUNCT': True, 'OP': '?'}]
@@ -28,6 +27,13 @@ WHERE_AS_P1 = [{'LOWER': 'whereas'}, {'IS_PUNCT': True, 'OP': '?'}]
 SIMILARLY_P1 = [{'LOWER': 'similarly'}, {'IS_PUNCT': True, 'OP': '?'}]
 AND_SOMETIMES_P1 = [{'LOWER': 'and'},{'LOWER': 'sometimes'}, {'IS_PUNCT': True, 'OP': '?'}]
 AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
+AS_WELL_P1 = [{'LOWER': 'as'},{'LOWER': 'well'}, {'IS_PUNCT': True, 'OP': '?'}]
+STILL_P1 = [{'LOWER': 'still'}, {'IS_PUNCT': True, 'OP': '?'}]
+NEXT_WEEK_P1 = [{'LOWER': 'next'},{'LOWER': 'week'}, {'IS_PUNCT': True, 'OP': '?'}]
+QUITE_P1 = [{'LOWER': 'quite'}, {'IS_PUNCT': True, 'OP': '?'}]
+YET_P1 = [{'LOWER': 'yet'}, {'IS_PUNCT': True, 'OP': '?'}]
+JUST_P1 = [{'LOWER': 'just'}, {'IS_PUNCT': True, 'OP': '?'}]
+
 
 
 dict_of_patterns.update({"HELLO_P1": HELLO_P1})
@@ -41,7 +47,6 @@ dict_of_patterns.update({"AGAIN_P1": AGAIN_P1})
 dict_of_patterns.update({"GREETINGS_P1": GREETINGS_P1})
 dict_of_patterns.update({"SOMETIMES_P1": SOMETIMES_P1})
 dict_of_patterns.update({"FINALLY_P1": FINALLY_P1})
-dict_of_patterns.update({"HERE_P1": HERE_P1})
 dict_of_patterns.update({"INDEED_P1": INDEED_P1})
 dict_of_patterns.update({"EVERYONE_P1": EVERYONE_P1})
 dict_of_patterns.update({"HI_P1": HI_P1})
@@ -58,3 +63,9 @@ dict_of_patterns.update({"WHERE_AS_P1": WHERE_AS_P1})
 dict_of_patterns.update({"SIMILARLY_P1": SIMILARLY_P1})
 dict_of_patterns.update({"AND_SOMETIMES_P1": AND_SOMETIMES_P1})
 dict_of_patterns.update({"AS_YOU_CAN_SEE_P1": AS_YOU_CAN_SEE_P1})
+dict_of_patterns.update({"AS_WELL_P1": AS_WELL_P1})
+dict_of_patterns.update({"STILL_P1": STILL_P1})
+dict_of_patterns.update({"NEXT_WEEK_P1": NEXT_WEEK_P1})
+dict_of_patterns.update({"QUITE_P1": QUITE_P1})
+dict_of_patterns.update({"YET_P1": YET_P1})
+dict_of_patterns.update({"JUST_P1": JUST_P1})

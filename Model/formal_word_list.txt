@@ -22,7 +22,7 @@ employer
 courageous
 suspend
 erupt
-collapse
+disconnect
 introduce
 construct
 however
@@ -91,7 +91,7 @@ beneficial
 attractive
 please
 assist
-present
+this
 criticize
 futile
 famish
@@ -133,7 +133,7 @@ repair
 nude
 require
 subsequent
-acceptable
+alright
 elderly
 senior
 at an end
@@ -158,14 +158,14 @@ appear
 deposit
 display
 choose
-demonstrate
+depict
 ill
 vision
 diminutive
 intelligent
 therefore
 accelerate
-commence
+begin
 cease
 obstinate
 perspiration
@@ -190,4 +190,15 @@ timber
 inferior
 incorrect
 youthful
-use
+add
+prefer
+return
+shift
+types
+arrive
+better
+create
+terminate
+spread
+explains
+study

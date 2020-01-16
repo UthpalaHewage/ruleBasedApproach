@@ -133,7 +133,7 @@ mend
 naked
 need
 next
-okay
+ok
 old
 older
 over
@@ -191,3 +191,14 @@ worse
 wrong
 young
 put
+like
+go back
+move
+kinds
+come
+very well
+made up
+ends
+split
+tells
+learn

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d3a08c-0e4a-479e-9318-294ca1255a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contraction_removal.py" beforeDir="false" afterPath="$PROJECT_DIR$/contraction_removal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/formal_word_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/formal_word_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/informal_word_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/informal_word_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/rule_based_word_patterns.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/rule_based_word_patterns.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,27 +20,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contraction_removal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -50,9 +32,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="323">
               <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="e#105#117#0" expanded="true" />
@@ -64,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/word_filteration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="340">
               <caret line="24" column="53" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
               <folding>
                 <element signature="e#50#62#0" expanded="true" />
@@ -85,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sent_modify_fact_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="459">
               <caret line="29" column="72" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="72" />
               <folding>
                 <element signature="e#100#112#0" expanded="true" />
@@ -97,8 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3145">
-              <caret line="185" column="4" selection-start-line="185" selection-start-column="2" selection-end-line="185" selection-end-column="4" />
+            <state relative-caret-position="484">
+              <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/rule_based_word_patterns.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -106,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fact_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
+            <state relative-caret-position="1071">
               <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
@@ -190,7 +190,6 @@
         <option value="$PROJECT_DIR$/Model/fact_dict.py" />
         <option value="$PROJECT_DIR$/passive_conversion/obj_patterns" />
         <option value="$PROJECT_DIR$/files/kachal.txt" />
-        <option value="$PROJECT_DIR$/Model/rule_based_word_patterns.py" />
         <option value="$PROJECT_DIR$/files/selected 6 transcripts/extra/8.2 Paragraphs.txt" />
         <option value="$PROJECT_DIR$/files/sample.txt" />
         <option value="$PROJECT_DIR$/files/question.txt" />
@@ -222,6 +221,7 @@
         <option value="$PROJECT_DIR$/command_detection.py" />
         <option value="$PROJECT_DIR$/fact_detection.py" />
         <option value="$PROJECT_DIR$/contraction_removal.py" />
+        <option value="$PROJECT_DIR$/Model/rule_based_word_patterns.py" />
       </list>
     </option>
   </component>
@@ -236,23 +236,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruleBasedApproach" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ruleBasedApproach" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,18 +404,19 @@
       <workItem from="1579065121605" duration="15731000" />
       <workItem from="1579084819520" duration="1008000" />
       <workItem from="1579085994706" duration="337000" />
-      <workItem from="1579090776865" duration="49000" />
+      <workItem from="1579090776865" duration="107000" />
+      <workItem from="1579132749910" duration="943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398350000" />
+    <option name="totallyTimeSpent" value="399351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28744328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -564,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/rule_based_word_patterns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/subject_root_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -660,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="5" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence_segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -679,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/passive_conversion/to_passive_voice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
+        <state relative-caret-position="1394">
           <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -687,9 +663,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/command_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="323">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="e#105#117#0" expanded="true" />
@@ -699,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/word_filteration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="340">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="53" />
           <folding>
             <element signature="e#50#62#0" expanded="true" />
@@ -716,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sent_modify_fact_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="459">
           <caret line="29" column="72" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="72" />
           <folding>
             <element signature="e#100#112#0" expanded="true" />
@@ -724,16 +707,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="4" selection-start-line="185" selection-start-column="2" selection-end-line="185" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fact_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
+        <state relative-caret-position="1071">
           <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
             <element signature="e#50#59#0" expanded="true" />
@@ -748,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/all_fact_list_keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contraction_removal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -762,6 +731,27 @@
           <folding>
             <element signature="e#90#99#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/formal_word_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/informal_word_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/rule_based_word_patterns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
