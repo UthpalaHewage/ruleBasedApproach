@@ -9,7 +9,6 @@ class QuestionDetection(object):
     word_filteration_obj = word_filteration.WordFilteration()
 
     def __init__(self):
-
         # constructor
         pass
 
@@ -29,14 +28,12 @@ class QuestionDetection(object):
             check_question = self.identify_questions(sent)
             # check for the availability of the questions
             if check_question:
-                # print(sent)
-                # check whether the sentence is a question
+                # check whether the sentence is a question- replace the question with "#"
                 all_sent_list[i] = "#"
             else:
                 # make the first letter of the sentence into lower case
                 sentence = sent[0].lower() + sent[1:]
                 # make the array with list of sentences
                 all_sent_list[i] = sentence.strip()
-                # print(sent)
-        # self.contraction_removal_obj.expand_contractions(all_sent_list)
+
         self.word_filteration_obj.remove_words_by_rule_based_matching(all_sent_list)

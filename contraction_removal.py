@@ -9,13 +9,13 @@ import fact_detection
 class ContractionRemoval(object):
     """class for the expansion of the contracted forms of words found in the content"""
 
-    # when 'I' losses its capitalization when at first place
-    # then wont detect as pronoun so need to forcefully give the expansion form
+    # then won't detect as pronoun so need to forcefully give the expansion form
     contractions_dict.update({'i\'m': 'i am'})
     contractions_dict.update({'i\'ll': 'i will'})
     contractions_dict.update({'here\'s': 'here is'})
-    fact_detection_obj = fact_detection.FactDetection()
 
+    # import the method for the detection of facts for preserve its meaning
+    fact_detection_obj = fact_detection.FactDetection()
 
     def __init__(self):
         pass
@@ -38,10 +38,10 @@ class ContractionRemoval(object):
         removed_contractions_sentence_list = []
         for sentense in sentence_list:
             # sub-for replacing the contraction with expanded form
+            # expanded_text-> the new sentence with contraction replaced
             # sent_list[i][0].upper() + sent_list[i][1:]
-            expanded_text = str(contractions_pattern.sub(expand_match, sentense[0].lower()+ sentense[1:]))
-            # print(expanded_text)
+            expanded_text = str(contractions_pattern.sub(expand_match, sentense[0].lower() + sentense[1:]))
             # join the expanded text into the original sentence
-            removed_contractions_sentence_list.append(expanded_text[0].upper()+expanded_text[1:])
+            removed_contractions_sentence_list.append(expanded_text[0].upper() + expanded_text[1:])
 
         self.fact_detection_obj.detect_by_phrase_matching(removed_contractions_sentence_list)

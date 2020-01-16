@@ -1,3 +1,4 @@
+"""Obtain all the keys respect to the facts detected in the content"""
 import Model.fact_dict as fact_container_dict
 
 

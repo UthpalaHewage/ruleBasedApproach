@@ -9,6 +9,7 @@ nlp = spacy.load('en_core_web_sm')
 
 class InformalWordReplacement(object):
     """class for the replacement of the informal words with formal word"""
+
     # import the method for the detection of future tense sentences detection and removal
     tense_conversion_obj = future_tense_detection.FutureTenseIdentification()
 
@@ -37,7 +38,6 @@ class InformalWordReplacement(object):
             matches = matcher(sentense)
 
             if len(matches) != 0:
-                # print(sentense[matches[0][1]:matches[0][2]])
                 new_sent = ""
                 # declare variable for later use
                 previous_end = None
@@ -71,8 +71,6 @@ class InformalWordReplacement(object):
                             previous_end = match[2]
 
                 new_sent = new_sent + str(sentense[previous_end:]).strip()
-                # print(new_sent.strip())
-
                 sent_list[i] = new_sent.strip()
 
         self.tense_conversion_obj.future_tense_det(sent_list)

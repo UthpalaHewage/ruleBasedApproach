@@ -10,6 +10,7 @@ nlp = spacy.load('en_core_web_sm')
 
 class CommandDetection(object):
     """class for the detection of the commands - imperative form of statements found"""
+
     # import the method for the replacement of the informal words with matching formal words
     informal_word_replacement_obj = informal_word_replacement.InformalWordReplacement()
 
@@ -24,9 +25,8 @@ class CommandDetection(object):
             # because if not named entities will also be detect as base verbs
             sentence = str(sent_list[i])[0].upper() + str(sent_list[i])[1:]
             sentence = nlp(sentence)
-            # print(f'{sentence[0].text:{10}} {sentence[0].tag_}')
-            # check whether the sent begin with base form of verb(VB)
 
+            # check whether the sent begin with base form of verb(VB)
             if str(sentence[0].tag_) == 'VB' and i not in keys_list:
 
                 # replace the position of the commands with # for later use

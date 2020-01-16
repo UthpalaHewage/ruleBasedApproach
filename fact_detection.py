@@ -74,11 +74,6 @@ class FactDetection(object):
 
         self.detect_by_quotes(sent_list)
 
-        # printing the dict
-        # for key in dict.facts_on_semicolon:
-        #     print("semicolon dict")
-        #     print(dict.facts_on_semicolon[key])
-
     def detect_by_quotes(self, sent_list):
         """detect the facts using the presence of quotes"""
         for i in range(len(sent_list)):
@@ -95,6 +90,4 @@ class FactDetection(object):
 
                     sent_list[i] = sent_list[i][:result.start()]
 
-                    # filter out the questions available - with question_detection.py
         self.question_detection_obj.question_removal(sent_list)
-

@@ -9,6 +9,7 @@ nlp = spacy.load('en_core_web_sm')
 class SentModifyFactDetection(object):
     """class for modification of the sentence segment after fact detection
     into present tense if available with any other tense"""
+
     # import the method for the detection of the commands found
     command_detection_obj = command_detection.CommandDetection()
 
@@ -20,7 +21,6 @@ class SentModifyFactDetection(object):
         # get the keys for the facts detected
         keys_list = all_fact_info.get_list_of_facts()
         for key in keys_list:
-            # print(sent_list[key])
             tokenized_sent = nlp(sent_list[key])
 
             # tokenized and get the root-verb and check the tense.

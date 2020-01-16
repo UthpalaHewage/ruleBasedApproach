@@ -82,6 +82,8 @@ class ConversionToPassive(object):
                                 # replace_pronoun - call for the pronoun replacing method
                                 replaced_result = replace.replace_pronoun(sentence, subject)
                                 sent_list[i] = replaced_result
+
+                # for the sentences with to proper combination of sub_and_root
                 else:
                     # get the subject index with required conditions
                     sub_index = [idx for idx in range(len(sentence)) if

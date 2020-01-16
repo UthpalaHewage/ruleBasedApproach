@@ -22,10 +22,6 @@ class FinalOutput(object):
                 self.final_sent_list.append(sent_list[i][0].upper() + sent_list[i][1:])
                 flag = i
             if sent_list[i][0] is not "#" and flag != i:
-                # to get the sentences begins with facts saved separately for later use
-                # if sent_list[i] == "##":
-                #     sent_list[i] = fact_dict.facts_on_quotes[i].strip()
-                # else:
                 # get the facts detected by quotes back into sentence
                 if i in fact_dict.facts_on_quotes:
                     sent_list[i] = sent_list[i].strip() + " " + fact_dict.facts_on_quotes[i].strip()

@@ -23,6 +23,7 @@ class FutureTenseIdentification(object):
 
             # get the sent not marked with #-(for command det) earlier
             if sent_list[i][0] is not "#":
+                # make the first letter of the sentence capitalize
                 sentense = nlp(sent_list[i][0].upper() + sent_list[i][1:])
                 # use subject_root_finder to detect subj & root_verb of the sentence
                 sub_and_root = finder.subject_and_root(sentense)
@@ -38,20 +39,7 @@ class FutureTenseIdentification(object):
                         for aux in aux_index:
                             # filter out the sentences with will/shall - future tense sentences
                             if str(sentense[aux]) in ["will", "shall"]:
-                                # get the details as an  output
-                                # print(sentense)
-                                # print(sentense[root_verb_index[0]])
-                                # print(sentense[sub_index[0]])
-                                # print(sentense[aux])
-                                # print("")
-
                                 # replace the future tense sentences with "###"
                                 sent_list[i] = "##"
-
-        # #print the updated index of dict with the respective sentense
-        # for key in dict.verb_sub_dict:
-        #     print(sent_list[key])
-        #     print(dict.verb_sub_dict[key])
-        #     print("")
 
         self.continuous_tense_conversion_obj.continuous_tense_con(sent_list)

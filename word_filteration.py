@@ -13,6 +13,7 @@ matcher = Matcher(nlp.vocab)
 
 class WordFilteration(object):
     """class for the filteration of the word as suits with different patterns"""
+
     # import the method for the modification of the sentences from which facts are extracted
     sent_modify_fact_detection_obj = sent_modify_fact_detection.SentModifyFactDetection()
 
@@ -53,12 +54,13 @@ class WordFilteration(object):
                 sentence = sentence + " " + str(doc[previous_end:]).strip()
                 sent_list[i] = sentence.strip()
 
-            # check for the sentence fragments whether it satisfy the
-            # general conditions to be a sentence (availability of min of 3 word)
+            # check for the sentence fragments whether it satisfy the general conditions to be a sentence
+            # (availability of min of 3 word) and here do not include sentences with "#" :
+            # "#"-question,sent begin with quotes
             # split is used here to get the number of word(count with aid of white space)
             if len(sent_list[i].strip().split()) > 2 or sent_list[i][0] is "#" or i in keys_list:
                 pass
             else:
                 sent_list[i] = "#"
-        # self.fact_detection_obj.detect_by_phrase_matching(filtered_list)
+
         self.sent_modify_fact_detection_obj.sent_modify(sent_list)

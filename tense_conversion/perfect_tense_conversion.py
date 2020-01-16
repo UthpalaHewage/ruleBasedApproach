@@ -22,7 +22,7 @@ class PerfectTenseConversion(object):
     def perfect_tense_con(self, sent_list):
         """conversion of perfect tense sentences to simple tense"""
         for i in range(len(sent_list)):
-            # the sent not marked with #-(for command det) and ###-(for future tense det) earlier
+            # the sent not marked with #-(for command det) and ##-(for future tense det) earlier
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
@@ -31,13 +31,11 @@ class PerfectTenseConversion(object):
                 if sub_and_root is not None:
                     root_verb = sub_and_root[0]
                     subject = sub_and_root[1]
-                   # check for the availability of past participle verb(VBN)
+
+                    # check for the availability of past participle verb(VBN)
                     if str(sentence[root_verb].tag_) == "VBN":
                         result = modifier.modifier(sentence, root_verb, subject, self.aux_list)
                         if result is not False:
                             sent_list[i] = result[0].lower() + result[1:]
-
-        # for sent in sent_list:
-        #     print(sent)
 
         self.to_passive_voice_obj.sub_root_obj_detection(sent_list)
