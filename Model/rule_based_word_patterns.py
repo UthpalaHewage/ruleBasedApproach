@@ -33,7 +33,7 @@ NEXT_WEEK_P1 = [{'LOWER': 'next'},{'LOWER': 'week'}, {'IS_PUNCT': True, 'OP': '?
 QUITE_P1 = [{'LOWER': 'quite'}, {'IS_PUNCT': True, 'OP': '?'}]
 YET_P1 = [{'LOWER': 'yet'}, {'IS_PUNCT': True, 'OP': '?'}]
 JUST_P1 = [{'LOWER': 'just'}, {'IS_PUNCT': True, 'OP': '?'}]
-
+SO_FAR_P1 = [{'LOWER': 'so'},{'LOWER': 'far'}, {'IS_PUNCT': True, 'OP': '?'}]
 
 
 dict_of_patterns.update({"HELLO_P1": HELLO_P1})
@@ -69,3 +69,4 @@ dict_of_patterns.update({"NEXT_WEEK_P1": NEXT_WEEK_P1})
 dict_of_patterns.update({"QUITE_P1": QUITE_P1})
 dict_of_patterns.update({"YET_P1": YET_P1})
 dict_of_patterns.update({"JUST_P1": JUST_P1})
+dict_of_patterns.update({"SO_FAR_P1": SO_FAR_P1})

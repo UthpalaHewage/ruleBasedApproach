@@ -12,6 +12,9 @@ class ContractionRemoval(object):
     # then won't detect as pronoun so need to forcefully give the expansion form
     contractions_dict.update({'i\'m': 'i am'})
     contractions_dict.update({'i\'ll': 'i will'})
+    contractions_dict.update({'i\'d': 'i would'})
+    contractions_dict.update({'i\'ve': 'i have'})
+    contractions_dict.update({'i\'d': 'i had'})
     contractions_dict.update({'here\'s': 'here is'})
 
     # import the method for the detection of facts for preserve its meaning

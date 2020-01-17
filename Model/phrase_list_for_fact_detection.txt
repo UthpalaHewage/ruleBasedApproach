@@ -16,4 +16,6 @@ An example would be
 Further examples are
 Take the example
 Other examples
+in this sentence
+In this sentence
 

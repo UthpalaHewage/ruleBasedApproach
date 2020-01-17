@@ -202,3 +202,4 @@ ends
 split
 tells
 learn
+take
