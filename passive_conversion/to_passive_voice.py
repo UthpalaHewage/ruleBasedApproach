@@ -16,7 +16,7 @@ class ConversionToPassive(object):
     # import the method for the final output of the module
     final_output_obj = final_output.FinalOutput()
     # list of personal pronoun list
-    word_list = ["I", "She", "He", "We", "You", "They", "It", "i","she", "he", "we", "you", "they", "it"]
+    word_list = ["I", "She", "He", "We", "You", "They", "It", "i", "she", "he", "we", "you", "they", "it"]
     # list of aux_list patterns
     aux_pattern_list = ["do not", "does not"]
     # get use of obj_patterns_for identification of patterns of  object occurrences
@@ -49,9 +49,15 @@ class ConversionToPassive(object):
                     if str(sentence[subject]) in self.word_list:
                         # check for the presence of comma to detect high complex sentences
                         comma_check = [idx for idx in range(len(sentence)) if str(sentence[idx]) in ","]
+                        # check for the presence of dep_ to detect high complex sentences - conjunctions,wh-adverb etc
+                        complex_sentence = [idx for idx in range(len(sentence)) if
+                                            (str(sentence[idx].dep_) == "mark" or
+                                             str(sentence[idx].dep_) == "cc" or
+                                             str(sentence[idx].dep_) == "cc")
+                                            ]
                         # sent for the replacement of the subject with "it" or "they" in replacement.py
                         # that is because the rule based conversion is quite difficult with complex sentences
-                        if len(comma_check) != 0:
+                        if len(comma_check) != 0 or len(complex_sentence) != 0:
                             replaced_result = replace.replace_pronoun(sentence, subject)
                             sent_list[i] = replaced_result
                         # if sentence is not a complex sentence
@@ -88,7 +94,7 @@ class ConversionToPassive(object):
                     # get the subject index with required conditions
                     sub_index = [idx for idx in range(len(sentence)) if
                                  (str(sentence[idx].dep_) == "nsubj" or
-                                 str(sentence[idx].dep_) == "nsubjpass")
+                                  str(sentence[idx].dep_) == "nsubjpass")
                                  and (str(sentence[idx]) in self.word_list)]
                     if len(sub_index) != 0 and sub_and_root is None:
                         # replace_pronoun - call for the pronoun replacing method
