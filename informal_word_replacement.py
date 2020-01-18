@@ -2,6 +2,8 @@
 import string
 import spacy
 from spacy.matcher import PhraseMatcher
+from spacy.matcher import Matcher
+
 import tense_conversion.future_tense_identification as future_tense_detection
 
 nlp = spacy.load('en_core_web_sm')
@@ -20,8 +22,9 @@ class InformalWordReplacement(object):
         """detection and replacement of informal words with formal words"""
         # get the punctuations for the manipulation
         punctuation_list = string.punctuation
-        matcher = PhraseMatcher(nlp.vocab)
-
+        matcher_rule = Matcher(nlp.vocab)
+        matcher_phrase = PhraseMatcher(nlp.vocab)
+        verb_types = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
         # get the list of informal word list
         with open('Model/informal_word_list.txt', 'r') as file:
             informal_word_list = ["" + line.strip() + "" for line in file]
@@ -29,13 +32,25 @@ class InformalWordReplacement(object):
         with open('Model/formal_word_list.txt', 'r') as file:
             formal_word_list = ["" + line.strip() + "" for line in file]
 
+        phrase_list = list()
+        for i in range(len(informal_word_list)):
+            word = informal_word_list[i]
+            if len(word.split()) == 1 and str(nlp(word)[0].tag_) in verb_types:
+                pattern = [{'LEMMA': word}, {'IS_PUNCT': True, 'OP': '?'}]
+                matcher_rule.add(str(i), None, pattern)
+            else:
+                phrase_list.append(word)
+        phrase_patterns = [nlp(text) for text in phrase_list]
+        matcher_phrase.add('Informal word matcher', None, *phrase_patterns)
         # Convert each phrase to a Doc object:
-        phrase_patterns = [nlp(text) for text in informal_word_list]
-        matcher.add('Informal word matcher', None, *phrase_patterns)
+        # phrase_patterns = [nlp(text) for text in informal_word_list]
+        # matcher.add('Informal word matcher', None, *phrase_patterns)
 
         for i in range(len(sent_list)):
             sentense = nlp(sent_list[i])
-            matches = matcher(sentense)
+            matches_1 = matcher_rule(sentense)
+            matches_2 = matcher_phrase(sentense)
+            matches = matches_1 + matches_2
 
             if len(matches) != 0:
                 new_sent = ""
