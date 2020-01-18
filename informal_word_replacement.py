@@ -3,7 +3,7 @@ import string
 import spacy
 from spacy.matcher import PhraseMatcher
 from spacy.matcher import Matcher
-
+from pyinflect import getInflection
 import tense_conversion.future_tense_identification as future_tense_detection
 
 nlp = spacy.load('en_core_web_sm')
@@ -59,10 +59,16 @@ class InformalWordReplacement(object):
                 # get match the informal word with formal word
                 for match in matches:
                     informal_word = str(sentense[match[1]:match[2]])
+                    word_type = str(sentense[match[1]:match[2]][0].tag_)
                     # get  the index with respect to the informal word
-                    index = informal_word_list.index(informal_word)
+                    if not informal_word_list.__contains__(informal_word) and word_type in verb_types:
+                        index = informal_word_list.index(sentense[match[1]:match[2]][0].lemma_)
+                        formal_word = getInflection(formal_word_list[index], tag=str(word_type))[0]
+
+                    else:
+                        index = informal_word_list.index(informal_word)
+                        formal_word = formal_word_list[index]
                     # get the respective formal word upon the index
-                    formal_word = formal_word_list[index]
 
                     # if it indicates a new sentence.
                     if previous_end is None:
@@ -87,5 +93,6 @@ class InformalWordReplacement(object):
 
                 new_sent = new_sent + str(sentense[previous_end:]).strip()
                 sent_list[i] = new_sent.strip()
-
-        self.tense_conversion_obj.future_tense_det(sent_list)
+        for sent in sent_list:
+            print(sent)
+        # self.tense_conversion_obj.future_tense_det(sent_list)
