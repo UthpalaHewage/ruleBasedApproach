@@ -22,9 +22,10 @@ class WordFilteration(object):
 
     # added the word patterns of same word that need to be filtered out
     def remove_words_by_rule_based_matching(self, sent_list):
+        """remove the words that need to be filtered out- match to different patterns declared"""
         # get the keys for the facts detected
         keys_list = all_fact_info.get_list_of_facts()
-        """remove the words that need to be filtered out- match to different patterns declared"""
+
         filtered_list = []
         # getting ist of patterns for removal of unnecessary word
         for pattern in pattern_dict.dict_of_patterns:

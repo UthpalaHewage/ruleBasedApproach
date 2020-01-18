@@ -8,7 +8,7 @@ import fact_detection
 
 class ContractionRemoval(object):
     """class for the expansion of the contracted forms of words found in the content"""
-
+    # when 'I' losses its capitalization when at first place
     # then won't detect as pronoun so need to forcefully give the expansion form
     contractions_dict.update({'i\'m': 'i am'})
     contractions_dict.update({'i\'ll': 'i will'})

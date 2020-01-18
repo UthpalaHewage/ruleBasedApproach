@@ -39,7 +39,7 @@ class FutureTenseIdentification(object):
                         for aux in aux_index:
                             # filter out the sentences with will/shall - future tense sentences
                             if str(sentense[aux]) in ["will", "shall"]:
-                                # replace the future tense sentences with "###"
+                                # replace the future tense sentences with "##"
                                 sent_list[i] = "##"
 
         self.continuous_tense_conversion_obj.continuous_tense_con(sent_list)

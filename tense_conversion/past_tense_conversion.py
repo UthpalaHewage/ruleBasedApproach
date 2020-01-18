@@ -24,7 +24,7 @@ class PastTenseConversion(object):
     def past_tense_con(self, sent_list):
         """conversion of past tense sentences to simple tense"""
         for i in range(len(sent_list)):
-            # the sent not marked with #-(for command det) and ###-(for future tense det) earlier
+            # the sent not marked with #-(for command det) and ##-(for future tense det) earlier
             # as index is checked # is enough to filter out both
             if sent_list[i][0] is not "#":
                 sentence = nlp(sent_list[i][0].upper() + sent_list[i][1:])
