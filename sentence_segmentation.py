@@ -24,8 +24,8 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        with open('files/collection/test.txt', 'r') as file:
-        # with open('files/7_2.Conjunctions.txt', 'r') as file:
+        # with open('files/collection/test.txt', 'r') as file:
+        with open('files/informal word replacement.txt', 'r') as file:
         # with open('files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt','r') as file:
             # read the text file_transcript
             data = file.read()
