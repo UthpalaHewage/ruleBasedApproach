@@ -66,7 +66,7 @@ class InformalWordReplacement(object):
             # unit the two matches into a single
             matches = matches_1 + matches_2
 
-            # sort the matches according to the occurance of words in the original sentence
+            # sort the matches according to the occurrence of words in the original sentence
             # with the aim of preventing the complication due to availability of two matches
             matches.sort(key=lambda x: x[1])
 

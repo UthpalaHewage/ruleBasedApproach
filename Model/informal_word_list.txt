@@ -1,32 +1,36 @@
 bit
-lot 
+a lot of
 afraid
-again 
+again and again
 also
-anyways
+anyway
 ask
-first
-once
+ask for
+ask out
+at first
+at once
 avoid
 away
 bad
-beat 
+beat up
 better
 big
 block
-blow 
+blow up
 book
 boss
 brave
-break 
-bring
+break off
+break out
+break up
+bring in
 build
 but
 buy
-by
-call 
+call off
+call on
 can
-catch
+catch up
 chance
 cheap
 check
@@ -34,8 +38,10 @@ childlish
 choose
 clear
 climb
-clothes
-come 
+clothing
+come after
+come in
+come up to
 dad
 danger
 dare
@@ -44,7 +50,7 @@ death
 describe
 dim
 dirty
-drop
+drop out of
 eager
 ease
 empty
@@ -53,98 +59,133 @@ enjoyment
 enough
 expect
 explain
+fall out
 fight
-find 
-fork 
+find out
+fork out
 free
 friendly
 funny
 get
+get away
+get by
+get out
 give
+give out
+give up
 go
+go after
+go against
+go head
+go away
+go before
+go down
+go head
+go on
+go out of
+go through
+go up
 good
+good for
+good looking
 happy
 help
 here
-hit
+hit out at
 hopeless
 hungry
 hurry
 hurt
 idea
+ideas
 imagine
-incharge
-end
+in charge of
+in the end
 iron out
 job
+jobs
 keep
 kidding
+kid
 kids
 lack
 laid back
 large
-lead to
+lead 
 leave out
 let
 link up
 live
 lively
-load
-look 
+look
+look for
+look into
+look like
+look up to
 lucky
 mad
 mainly
-make 
+make
+make out
+make up
 marvelous
-may be
+may 
 mend
 naked
 need
 next
-ok
+OK
 old
 older
 over
+pay
 pay back
 pick
 pin down
 point out
+put in
 put off
+put up with
 rack up
-really big
+big
 remove
 rich
 right
 round
 say
-no
-sorry
+say no
+say sorry
 see
 seem
-set 
-settle 
+set down
+set out
+settle for
 show
 sick
 sight
 small
 smart
 so
-speed
+speed up
 start
 stop
 stubborn
 sweat
-take 
-talk 
+take out
+talk about
+talk into
 tell
 test
-thanks
-think 
-throw 
+thank
+think about
+think of
+throw away
+throw out
 tired
 tough
 try
-wait 
+try out
+wait for
 want
 whole
 wood
@@ -153,11 +194,15 @@ wrong
 young
 put
 like
-back
+go back
 move
+kind
 kinds
-well
-ends
+come
+very well
+made up
+end
 split
-tells
+tell
 learn
+take
