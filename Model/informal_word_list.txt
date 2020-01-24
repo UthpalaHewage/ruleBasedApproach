@@ -30,7 +30,7 @@ buy
 call off
 call on
 can
-catch up
+catch
 chance
 cheap
 check
@@ -138,7 +138,6 @@ OK
 old
 older
 over
-pay
 pay back
 pick
 pin down
@@ -194,15 +193,13 @@ wrong
 young
 put
 like
-go back
 move
 kind
 kinds
 come
 very well
-made up
-end
 split
-tell
 learn
 take
+join
+tricky

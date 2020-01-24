@@ -24,14 +24,15 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        # with open('files/collection/test.txt', 'r') as file:
-        with open('files/informal word replacement.txt', 'r') as file:
-        # with open('files/collection/selected 6 transcripts/5_2.Forms and functions of pronouns.txt','r') as file:
+        with open('files/sent modify fact detection.txt', 'r') as file:
+        # with open('files/transcript_1.txt', 'r') as file:
+        # with open('files/collection/selected 6 transcripts/7_2.Conjunctions.txt','r') as file:
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks
         all_sent_list = tokenize.sent_tokenize(data.replace("\n", " "))
-
+        # for sent in all_sent_list:
+        #     print(sent)
         self.contraction_removal_obj.expand_contractions(all_sent_list)
         self.print_para()
 

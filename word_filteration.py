@@ -56,10 +56,14 @@ class WordFilteration(object):
                 sent_list[i] = sentence.strip()
 
             # check for the sentence fragments whether it satisfy the general conditions to be a sentence
+            # split is used here to get the number of word(count with aid of white space) - wordcount
+            wordcount = len(sent_list[i].strip().split())
+            # get the sentences which are completely filtered out
+            if len(sent_list[i].strip()) == 0:
+                sent_list[i] = "#"
             # (availability of min of 3 word) and here do not include sentences with "#" :
             # "#"-question,sent begin with quotes
-            # split is used here to get the number of word(count with aid of white space)
-            if len(sent_list[i].strip().split()) > 2 or sent_list[i][0] is "#" or i in keys_list:
+            elif wordcount > 2 or sent_list[i][0] is "#" or i in keys_list:
                 pass
             else:
                 sent_list[i] = "#"

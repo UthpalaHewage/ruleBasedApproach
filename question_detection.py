@@ -36,4 +36,6 @@ class QuestionDetection(object):
                 # make the array with list of sentences
                 all_sent_list[i] = sentence.strip()
 
+        # for sent in all_sent_list:
+        #     print(sent)
         self.word_filteration_obj.remove_words_by_rule_based_matching(all_sent_list)

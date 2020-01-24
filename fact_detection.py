@@ -90,4 +90,6 @@ class FactDetection(object):
 
                     sent_list[i] = sent_list[i][:result.start()]
 
+        # for sent in sent_list:
+        #     print(sent)
         self.question_detection_obj.question_removal(sent_list)

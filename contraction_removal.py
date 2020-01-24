@@ -47,4 +47,6 @@ class ContractionRemoval(object):
             # join the expanded text into the original sentence
             removed_contractions_sentence_list.append(expanded_text[0].upper() + expanded_text[1:])
 
+        # for sent in removed_contractions_sentence_list:
+        #     print(sent)
         self.fact_detection_obj.detect_by_phrase_matching(removed_contractions_sentence_list)

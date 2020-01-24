@@ -35,7 +35,6 @@ class SentModifyFactDetection(object):
                     # to get out of the conversion process
                     break
 
-        self.command_detection_obj.command_det(sent_list)
-
-
-
+        for sent in sent_list:
+            print(sent)
+        # self.command_detection_obj.command_det(sent_list)

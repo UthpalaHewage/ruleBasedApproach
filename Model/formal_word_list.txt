@@ -30,7 +30,7 @@ purchase
 cancel
 visit
 capable to
-understand
+detect
 opportunity
 inexpensive
 verify
@@ -73,7 +73,7 @@ escape
 provide
 distribute
 quit
-depart
+return
 pursue
 oppose
 proceed
@@ -138,7 +138,6 @@ alright
 elderly
 senior
 at an end
-return
 repay
 collect
 determine
@@ -194,15 +193,13 @@ incorrect
 youthful
 add
 prefer
-return
 shift
 type
 types
 arrive
 better
-create
-terminate
 spread
-explain
 study
 use
+combine
+awkward
