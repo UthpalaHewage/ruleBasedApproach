@@ -24,9 +24,9 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        with open('files/sent modify fact detection.txt', 'r') as file:
+        # with open('files/to passive-complex.txt', 'r') as file:
         # with open('files/transcript_1.txt', 'r') as file:
-        # with open('files/collection/selected 6 transcripts/7_2.Conjunctions.txt','r') as file:
+        with open('files/collection/selected 6 transcripts/7_2.Conjunctions.txt','r') as file:
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks

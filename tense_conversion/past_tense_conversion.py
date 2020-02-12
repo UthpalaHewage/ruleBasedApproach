@@ -39,15 +39,15 @@ class PastTenseConversion(object):
                         # get the base form of the verb
                         base_verb = sentence[root_verb].lemma_
 
-                        # continuous sent with 'I' is converted
+                        # past tense sent with 'I' is converted
                         if str(sentence[subject]) is "I":
                             sent_list[i] = self.i_based_sent(sentence, root_verb, base_verb)
 
-                        # singular continuous sent is converted
+                        # singular past tense sent is converted
                         elif self.check_singularity(sentence[subject]) is False:
                             sent_list[i] = self.singular_sent(sentence, root_verb, base_verb)
 
-                        # plural continuous sent is converted
+                        # plural past tense sent is converted
                         else:
                             sent_list[i] = self.plural_sent(sentence, root_verb, base_verb)
 
@@ -55,20 +55,22 @@ class PastTenseConversion(object):
                     elif "did" in str(sentence[subject:root_verb]):
                         mid_word = str(sentence[subject:root_verb])
                         end_word = str(sentence[root_verb:])
-                        # continuous sent with 'I' is converted
+                        # past tense sent with 'I' is converted
                         if str(sentence[subject]) is "I":
                             sent_list[i] = mid_word.replace("did", "do").strip() + " " + end_word.strip()
 
-                        # singular continuous sent is converted
+                        # singular past tense sent is converted
                         elif self.check_singularity(sentence[subject]) is False:
                             sent_list[i] = mid_word.replace("did", "does").strip() + " " + end_word.strip()
 
-                        # plural continuous sent is converted
+                        # plural past tense sent is converted
                         else:
                             sent_list[i] = mid_word.replace("did", "do").strip() + " " + end_word.strip()
 
             sent_list[i] = sent_list[i][0].lower() + sent_list[i][1:]
 
+        # for sent in sent_list:
+        #     print(sent)
         self.perfect_tense_conversion_obj.perfect_tense_con(sent_list)
 
     @staticmethod

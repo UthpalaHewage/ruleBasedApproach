@@ -22,17 +22,17 @@ def modifier(sentence, root_verb, subject, aux_list):
         # check the availability of 'not' in the sentence - negation
         negation_availability = True if str(sentence[aux_idx + 1]) == "not" else False
 
-        # continuous sent with 'I' is converted
+        # continuous/perfect sent with 'I' is converted
         if str(sentence[subject]) is "I":
             return i_based_sent(negation_availability, sentence, aux_idx, root_verb,
                                 base_verb)
 
-        # singular continuous sent is converted
+        # singular continuous/perfect sent is converted
         elif inflect.singular_noun(str(sentence[subject])) is False:
             return singular_sent(negation_availability, sentence, aux_idx, root_verb,
                                  base_verb)
 
-        # plural continuous sent is converted
+        # plural continuous/perfect sent is converted
         else:
             return plural_sent(negation_availability, sentence, aux_idx, root_verb,
                                base_verb)

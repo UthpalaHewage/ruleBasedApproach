@@ -32,4 +32,6 @@ class CommandDetection(object):
                 # replace the position of the commands with # for later use
                 sent_list[i] = '#'
 
+        # for sent in sent_list:
+        #     print(sent)
         self.informal_word_replacement_obj.informal_word_detection(sent_list)

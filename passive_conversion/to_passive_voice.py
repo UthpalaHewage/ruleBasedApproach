@@ -53,7 +53,7 @@ class ConversionToPassive(object):
                         complex_sentence = [idx for idx in range(len(sentence)) if
                                             (str(sentence[idx].dep_) == "mark" or
                                              str(sentence[idx].dep_) == "cc" or
-                                             str(sentence[idx].dep_) == "cc")
+                                             str(sentence[idx].dep_) == "wh")
                                             ]
                         # sent for the replacement of the subject with "it" or "they" in replacement.py
                         # that is because the rule based conversion is quite difficult with complex sentences
@@ -89,7 +89,7 @@ class ConversionToPassive(object):
                                 replaced_result = replace.replace_pronoun(sentence, subject)
                                 sent_list[i] = replaced_result
 
-                # for the sentences with to proper combination of sub_and_root
+                # for the sentences without proper combination of sub_and_root
                 else:
                     # get the subject index with required conditions
                     sub_index = [idx for idx in range(len(sentence)) if
@@ -101,6 +101,8 @@ class ConversionToPassive(object):
                         replaced_result = replace.replace_pronoun(sentence, sub_index[0])
                         sent_list[i] = replaced_result
 
+        # for sent in sent_list:
+        #     print(sent)
         self.final_output_obj.final_output(sent_list)
 
     # get the object of the related sentence as per the match

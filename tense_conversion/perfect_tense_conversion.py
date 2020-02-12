@@ -38,4 +38,6 @@ class PerfectTenseConversion(object):
                         if result is not False:
                             sent_list[i] = result[0].lower() + result[1:]
 
+        # for sent in sent_list:
+        #     print(sent)
         self.to_passive_voice_obj.sub_root_obj_detection(sent_list)

@@ -40,4 +40,6 @@ class ContinuousTenseConversion(object):
                         if result is not False:
                             sent_list[i] = result[0].lower() + result[1:]
 
+        # for sent in sent_list:
+        #     print(sent)
         self.past_tense_conversion_obj.past_tense_con(sent_list)

@@ -42,4 +42,6 @@ class FutureTenseIdentification(object):
                                 # replace the future tense sentences with "##"
                                 sent_list[i] = "##"
 
+        # for sent in sent_list:
+        #     print(sent)
         self.continuous_tense_conversion_obj.continuous_tense_con(sent_list)
