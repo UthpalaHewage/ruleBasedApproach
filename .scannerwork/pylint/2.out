@@ -1,11 +1,51 @@
-************* Module command_detection
-command_detection.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
-command_detection.py:10: [R0205(useless-object-inheritance), CommandDetection] Class 'CommandDetection' inherits from object, can be safely removed from bases in python3
-command_detection.py:20: [C0200(consider-using-enumerate), CommandDetection.command_det] Consider using enumerate instead of iterating with range and len
-command_detection.py:10: [R0903(too-few-public-methods), CommandDetection] Too few public methods (1/2)
+************* Module rule_based_word_patterns
+Model\rule_based_word_patterns.py:22: [C0326(bad-whitespace), ] Exactly one space required after comma
+GOOD_MORNING_P1 = [{'LOWER': 'good'},{'LOWER': 'morning'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                    ^
+Model\rule_based_word_patterns.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
+NEVER_MIND_P1 = [{'LOWER': 'never'},{'LOWER': 'mind'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                   ^
+Model\rule_based_word_patterns.py:25: [C0326(bad-whitespace), ] Exactly one space required after comma
+AND_FINALLY_P1 = [{'LOWER': 'and'},{'LOWER': 'finally'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                  ^
+Model\rule_based_word_patterns.py:28: [C0326(bad-whitespace), ] Exactly one space required after comma
+AND_SOMETIMES_P1 = [{'LOWER': 'and'},{'LOWER': 'sometimes'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                    ^
+Model\rule_based_word_patterns.py:29: [C0301(line-too-long), ] Line too long (119/100)
+Model\rule_based_word_patterns.py:29: [C0326(bad-whitespace), ] Exactly one space required after comma
+AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                    ^
+Model\rule_based_word_patterns.py:29: [C0326(bad-whitespace), ] Exactly one space required after comma
+AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                                     ^
+Model\rule_based_word_patterns.py:29: [C0326(bad-whitespace), ] Exactly one space required after comma
+AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                                                      ^
+Model\rule_based_word_patterns.py:30: [C0326(bad-whitespace), ] Exactly one space required after comma
+AS_WELL_P1 = [{'LOWER': 'as'},{'LOWER': 'well'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                             ^
+Model\rule_based_word_patterns.py:32: [C0326(bad-whitespace), ] Exactly one space required after comma
+NEXT_WEEK_P1 = [{'LOWER': 'next'},{'LOWER': 'week'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                                 ^
+Model\rule_based_word_patterns.py:36: [C0326(bad-whitespace), ] Exactly one space required after comma
+SO_FAR_P1 = [{'LOWER': 'so'},{'LOWER': 'far'}, {'IS_PUNCT': True, 'OP': '?'}]
+
+                            ^
+Model\rule_based_word_patterns.py:72: [C0304(missing-final-newline), ] Final newline missing
+Model\rule_based_word_patterns.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+Model\rule_based_word_patterns.py:1: [C0103(invalid-name), ] Constant name "dict_of_patterns" doesn't conform to UPPER_CASE naming style
 
 ------------------------------------------------------------------
 
-Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+Your code has been rated at 7.97/10 (previous run: 7.97/10, +0.00)
 
 

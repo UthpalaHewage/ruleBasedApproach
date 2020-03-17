@@ -1,17 +1,14 @@
-************* Module future_tense_identification
-tense_conversion\future_tense_identification.py:30: [C0301(line-too-long), ] Line too long (107/100)
-tense_conversion\future_tense_identification.py:32: [C0301(line-too-long), ] Line too long (107/100)
-tense_conversion\future_tense_identification.py:35: [C0301(line-too-long), ] Line too long (110/100)
-tense_conversion\future_tense_identification.py:47: [C0301(line-too-long), ] Line too long (116/100)
-tense_conversion\future_tense_identification.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
-tense_conversion\future_tense_identification.py:10: [R0205(useless-object-inheritance), FutureTenseIdentification] Class 'FutureTenseIdentification' inherits from object, can be safely removed from bases in python3
-tense_conversion\future_tense_identification.py:20: [C0200(consider-using-enumerate), FutureTenseIdentification.future_tense_det] Consider using enumerate instead of iterating with range and len
-tense_conversion\future_tense_identification.py:27: [R0123(literal-comparison), FutureTenseIdentification.future_tense_det] Comparison to literal
-tense_conversion\future_tense_identification.py:20: [R1702(too-many-nested-blocks), FutureTenseIdentification.future_tense_det] Too many nested blocks (6/5)
-tense_conversion\future_tense_identification.py:10: [R0903(too-few-public-methods), FutureTenseIdentification] Too few public methods (1/2)
+************* Module sentence_segmentation
+sentence_segmentation.py:29: [C0326(bad-whitespace), ] Exactly one space required after comma
+        with open('files/collection/selected 6 transcripts/7_2.Conjunctions.txt','r') as file:
+
+                                                                                ^
+sentence_segmentation.py:13: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+sentence_segmentation.py:16: [R0205(useless-object-inheritance), SentenceSegmentation] Class 'SentenceSegmentation' inherits from object, can be safely removed from bases in python3
+sentence_segmentation.py:40: [C0116(missing-function-docstring), SentenceSegmentation.print_para] Missing function or method docstring
 
 ------------------------------------------------------------------
 
-Your code has been rated at 6.15/10 (previous run: 6.15/10, +0.00)
+Your code has been rated at 7.78/10 (previous run: 7.78/10, +0.00)
 
 

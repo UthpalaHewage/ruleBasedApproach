@@ -1,11 +1,50 @@
-************* Module sentence_segmentation
-sentence_segmentation.py:27: [C0301(line-too-long), ] Line too long (125/100)
-sentence_segmentation.py:11: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
-sentence_segmentation.py:14: [R0205(useless-object-inheritance), SentenceSegmentation] Class 'SentenceSegmentation' inherits from object, can be safely removed from bases in python3
-sentence_segmentation.py:14: [R0903(too-few-public-methods), SentenceSegmentation] Too few public methods (1/2)
+************* Module to_passive_voice
+passive_conversion\to_passive_voice.py:19: [C0301(line-too-long), ] Line too long (106/100)
+passive_conversion\to_passive_voice.py:51: [C0301(line-too-long), ] Line too long (104/100)
+passive_conversion\to_passive_voice.py:52: [C0301(line-too-long), ] Line too long (118/100)
+passive_conversion\to_passive_voice.py:58: [C0301(line-too-long), ] Line too long (103/100)
+passive_conversion\to_passive_voice.py:59: [C0301(line-too-long), ] Line too long (109/100)
+passive_conversion\to_passive_voice.py:70: [C0330(bad-continuation), ] Wrong hanging indentation (remove 4 spaces).
+                                                 str(sentence[idx].pos_) == "NOUN" or str(
+
+                                             |   ^
+passive_conversion\to_passive_voice.py:71: [C0330(bad-continuation), ] Wrong hanging indentation (add 8 spaces).
+                                             sentence[idx].pos_) == "PROPN")]
+
+                                             ^       |
+passive_conversion\to_passive_voice.py:79: [C0301(line-too-long), ] Line too long (102/100)
+passive_conversion\to_passive_voice.py:80: [C0301(line-too-long), ] Line too long (106/100)
+passive_conversion\to_passive_voice.py:82: [C0301(line-too-long), ] Line too long (109/100)
+passive_conversion\to_passive_voice.py:83: [C0301(line-too-long), ] Line too long (108/100)
+passive_conversion\to_passive_voice.py:130: [C0301(line-too-long), ] Line too long (119/100)
+passive_conversion\to_passive_voice.py:138: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:141: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:146: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:149: [C0301(line-too-long), ] Line too long (105/100)
+passive_conversion\to_passive_voice.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+passive_conversion\to_passive_voice.py:10: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:11: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:12: [C0103(invalid-name), ] Constant name "matcher" doesn't conform to UPPER_CASE naming style
+passive_conversion\to_passive_voice.py:15: [C0115(missing-class-docstring), ConversionToPassive] Missing class docstring
+passive_conversion\to_passive_voice.py:15: [R0205(useless-object-inheritance), ConversionToPassive] Class 'ConversionToPassive' inherits from object, can be safely removed from bases in python3
+passive_conversion\to_passive_voice.py:36: [C0116(missing-function-docstring), ConversionToPassive.sub_root_obj_detection] Missing function or method docstring
+passive_conversion\to_passive_voice.py:36: [R0914(too-many-locals), ConversionToPassive.sub_root_obj_detection] Too many local variables (16/15)
+passive_conversion\to_passive_voice.py:38: [C0200(consider-using-enumerate), ConversionToPassive.sub_root_obj_detection] Consider using enumerate instead of iterating with range and len
+passive_conversion\to_passive_voice.py:41: [R0123(literal-comparison), ConversionToPassive.sub_root_obj_detection] Comparison to literal
+passive_conversion\to_passive_voice.py:38: [R1702(too-many-nested-blocks), ConversionToPassive.sub_root_obj_detection] Too many nested blocks (7/5)
+passive_conversion\to_passive_voice.py:110: [C0116(missing-function-docstring), ConversionToPassive.get_object_bound] Missing function or method docstring
+passive_conversion\to_passive_voice.py:129: [C0116(missing-function-docstring), ConversionToPassive.create_passive] Missing function or method docstring
+passive_conversion\to_passive_voice.py:129: [R0913(too-many-arguments), ConversionToPassive.create_passive] Too many arguments (6/5)
+passive_conversion\to_passive_voice.py:168: [W0702(bare-except), ConversionToPassive.create_passive] No exception type(s) specified
+passive_conversion\to_passive_voice.py:135: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:143: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:154: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:161: [R1705(no-else-return), ConversionToPassive.create_passive] Unnecessary "else" after "return"
+passive_conversion\to_passive_voice.py:129: [R0911(too-many-return-statements), ConversionToPassive.create_passive] Too many return statements (9/6)
+passive_conversion\to_passive_voice.py:172: [C0116(missing-function-docstring), ConversionToPassive.check_negation] Missing function or method docstring
 
 ------------------------------------------------------------------
 
-Your code has been rated at 8.26/10 (previous run: 8.70/10, -0.43)
+Your code has been rated at 5.84/10 (previous run: 5.84/10, +0.00)
 
 

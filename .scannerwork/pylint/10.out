@@ -1,9 +1,6 @@
-************* Module question_detection
-question_detection.py:4: [R0205(useless-object-inheritance), QuestionDetection] Class 'QuestionDetection' inherits from object, can be safely removed from bases in python3
-question_detection.py:4: [R0903(too-few-public-methods), QuestionDetection] Too few public methods (1/2)
 
-------------------------------------------------------------------
+--------------------------------------------------------------------
 
-Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
 

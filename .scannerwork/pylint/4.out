@@ -1,13 +1,9 @@
-************* Module fact_detection
-fact_detection.py:8: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
-fact_detection.py:11: [R0205(useless-object-inheritance), FactDetection] Class 'FactDetection' inherits from object, can be safely removed from bases in python3
-fact_detection.py:36: [C0200(consider-using-enumerate), FactDetection.detect_by_phrase_matching] Consider using enumerate instead of iterating with range and len
-fact_detection.py:51: [C0200(consider-using-enumerate), FactDetection.detect_by_colon] Consider using enumerate instead of iterating with range and len
-fact_detection.py:64: [C0200(consider-using-enumerate), FactDetection.detect_by_semicolon] Consider using enumerate instead of iterating with range and len
-fact_detection.py:82: [C0200(consider-using-enumerate), FactDetection.detect_by_quotes] Consider using enumerate instead of iterating with range and len
+************* Module subject_root_finder
+Shared\subject_root_finder.py:4: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+Shared\subject_root_finder.py:7: [C0116(missing-function-docstring), subject_and_root] Missing function or method docstring
 
 ------------------------------------------------------------------
 
-Your code has been rated at 8.78/10 (previous run: 8.78/10, +0.00)
+Your code has been rated at 8.18/10 (previous run: 8.18/10, +0.00)
 
 

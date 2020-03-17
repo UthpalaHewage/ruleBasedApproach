@@ -1,20 +1,12 @@
-************* Module past_tense_conversion
-tense_conversion\past_tense_conversion.py:60: [C0301(line-too-long), ] Line too long (105/100)
-tense_conversion\past_tense_conversion.py:64: [C0301(line-too-long), ] Line too long (107/100)
-tense_conversion\past_tense_conversion.py:68: [C0301(line-too-long), ] Line too long (105/100)
-tense_conversion\past_tense_conversion.py:79: [C0301(line-too-long), ] Line too long (112/100)
-tense_conversion\past_tense_conversion.py:85: [C0301(line-too-long), ] Line too long (108/100)
-tense_conversion\past_tense_conversion.py:91: [C0301(line-too-long), ] Line too long (112/100)
-tense_conversion\past_tense_conversion.py:8: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
-tense_conversion\past_tense_conversion.py:11: [R0205(useless-object-inheritance), PastTenseConversion] Class 'PastTenseConversion' inherits from object, can be safely removed from bases in python3
-tense_conversion\past_tense_conversion.py:26: [C0200(consider-using-enumerate), PastTenseConversion.past_tense_con] Consider using enumerate instead of iterating with range and len
-tense_conversion\past_tense_conversion.py:29: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
-tense_conversion\past_tense_conversion.py:43: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
-tense_conversion\past_tense_conversion.py:59: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
-tense_conversion\past_tense_conversion.py:94: [C0116(missing-function-docstring), PastTenseConversion.check_singularity] Missing function or method docstring
+************* Module continuous_tense_conversion
+tense_conversion\continuous_tense_conversion.py:7: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+tense_conversion\continuous_tense_conversion.py:10: [R0205(useless-object-inheritance), ContinuousTenseConversion] Class 'ContinuousTenseConversion' inherits from object, can be safely removed from bases in python3
+tense_conversion\continuous_tense_conversion.py:25: [C0200(consider-using-enumerate), ContinuousTenseConversion.continuous_tense_con] Consider using enumerate instead of iterating with range and len
+tense_conversion\continuous_tense_conversion.py:28: [R0123(literal-comparison), ContinuousTenseConversion.continuous_tense_con] Comparison to literal
+tense_conversion\continuous_tense_conversion.py:10: [R0903(too-few-public-methods), ContinuousTenseConversion] Too few public methods (1/2)
 
 ------------------------------------------------------------------
 
-Your code has been rated at 7.05/10 (previous run: 7.05/10, +0.00)
+Your code has been rated at 7.83/10 (previous run: 7.83/10, +0.00)
 
 

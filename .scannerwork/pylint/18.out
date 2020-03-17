@@ -1,37 +1,20 @@
-************* Module sent_modifier
-tense_conversion\sent_modifier.py:47: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-            sentense[root_verb + 1:]).strip()
-
-            ^   |
-tense_conversion\sent_modifier.py:51: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-        sentense[root_verb + 1:]).strip()
-
-        ^   |
-tense_conversion\sent_modifier.py:59: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-            sentense[root_verb + 1:]).strip()
-
-            ^   |
-tense_conversion\sent_modifier.py:63: [C0301(line-too-long), ] Line too long (102/100)
-tense_conversion\sent_modifier.py:64: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-        sentense[root_verb + 1:]).strip()
-
-        ^   |
-tense_conversion\sent_modifier.py:72: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-            sentense[root_verb + 1:]).strip()
-
-            ^   |
-tense_conversion\sent_modifier.py:76: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
-        sentense[root_verb + 1:]).strip()
-
-        ^   |
-tense_conversion\sent_modifier.py:7: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
-tense_conversion\sent_modifier.py:10: [C0116(missing-function-docstring), modifier] Missing function or method docstring
-tense_conversion\sent_modifier.py:23: [R1719(simplifiable-if-expression), modifier] The if expression can be replaced with 'test'
-tense_conversion\sent_modifier.py:26: [R1705(no-else-return), modifier] Unnecessary "elif" after "return"
-tense_conversion\sent_modifier.py:26: [R0123(literal-comparison), modifier] Comparison to literal
+************* Module past_tense_conversion
+tense_conversion\past_tense_conversion.py:60: [C0301(line-too-long), ] Line too long (105/100)
+tense_conversion\past_tense_conversion.py:64: [C0301(line-too-long), ] Line too long (107/100)
+tense_conversion\past_tense_conversion.py:68: [C0301(line-too-long), ] Line too long (105/100)
+tense_conversion\past_tense_conversion.py:79: [C0301(line-too-long), ] Line too long (112/100)
+tense_conversion\past_tense_conversion.py:85: [C0301(line-too-long), ] Line too long (108/100)
+tense_conversion\past_tense_conversion.py:91: [C0301(line-too-long), ] Line too long (112/100)
+tense_conversion\past_tense_conversion.py:8: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+tense_conversion\past_tense_conversion.py:11: [R0205(useless-object-inheritance), PastTenseConversion] Class 'PastTenseConversion' inherits from object, can be safely removed from bases in python3
+tense_conversion\past_tense_conversion.py:26: [C0200(consider-using-enumerate), PastTenseConversion.past_tense_con] Consider using enumerate instead of iterating with range and len
+tense_conversion\past_tense_conversion.py:29: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
+tense_conversion\past_tense_conversion.py:43: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
+tense_conversion\past_tense_conversion.py:59: [R0123(literal-comparison), PastTenseConversion.past_tense_con] Comparison to literal
+tense_conversion\past_tense_conversion.py:94: [C0116(missing-function-docstring), PastTenseConversion.check_singularity] Missing function or method docstring
 
 ------------------------------------------------------------------
 
-Your code has been rated at 5.56/10 (previous run: 5.56/10, +0.00)
+Your code has been rated at 7.05/10 (previous run: 7.05/10, +0.00)
 
 

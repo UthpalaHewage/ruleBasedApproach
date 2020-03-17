@@ -40,6 +40,7 @@ class FinalOutput(object):
 
         for sent in self.final_sent_list:
             self.final_para = self.final_para + " " + sent
+            # get the output sentence vice
             print(sent)
         para.final_para = self.final_para.strip()
         print("---------------------------------------------")

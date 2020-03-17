@@ -1,38 +1,9 @@
-************* Module rule_based_word_patterns
-Model\rule_based_word_patterns.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
-GOOD_MORNING_P1 = [{'LOWER': 'good'},{'LOWER': 'morning'}, {'IS_PUNCT': True, 'OP': '?'}]
+************* Module paragraph
+Model\paragraph.py:3: [C0305(trailing-newlines), ] Trailing newlines
+Model\paragraph.py:2: [C0103(invalid-name), ] Constant name "final_para" doesn't conform to UPPER_CASE naming style
 
-                                    ^
-Model\rule_based_word_patterns.py:24: [C0326(bad-whitespace), ] Exactly one space required after comma
-NEVER_MIND_P1 = [{'LOWER': 'never'},{'LOWER': 'mind'}, {'IS_PUNCT': True, 'OP': '?'}]
+----------------------------------------------------------------------
 
-                                   ^
-Model\rule_based_word_patterns.py:26: [C0326(bad-whitespace), ] Exactly one space required after comma
-AND_FINALLY_P1 = [{'LOWER': 'and'},{'LOWER': 'finally'}, {'IS_PUNCT': True, 'OP': '?'}]
-
-                                  ^
-Model\rule_based_word_patterns.py:29: [C0326(bad-whitespace), ] Exactly one space required after comma
-AND_SOMETIMES_P1 = [{'LOWER': 'and'},{'LOWER': 'sometimes'}, {'IS_PUNCT': True, 'OP': '?'}]
-
-                                    ^
-Model\rule_based_word_patterns.py:30: [C0301(line-too-long), ] Line too long (119/100)
-Model\rule_based_word_patterns.py:30: [C0326(bad-whitespace), ] Exactly one space required after comma
-AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
-
-                                    ^
-Model\rule_based_word_patterns.py:30: [C0326(bad-whitespace), ] Exactly one space required after comma
-AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
-
-                                                     ^
-Model\rule_based_word_patterns.py:30: [C0326(bad-whitespace), ] Exactly one space required after comma
-AS_YOU_CAN_SEE_P1 = [{'LOWER': 'as'},{'LOWER': 'you'},{'LOWER': 'can'},{'LOWER': 'see'}, {'IS_PUNCT': True, 'OP': '?'}]
-
-                                                                      ^
-Model\rule_based_word_patterns.py:1: [C0114(missing-module-docstring), ] Missing module docstring
-Model\rule_based_word_patterns.py:1: [C0103(invalid-name), ] Constant name "dict_of_patterns" doesn't conform to UPPER_CASE naming style
-
-------------------------------------------------------------------
-
-Your code has been rated at 8.25/10 (previous run: 9.18/10, -0.94)
+Your code has been rated at -10.00/10 (previous run: -10.00/10, +0.00)
 
 

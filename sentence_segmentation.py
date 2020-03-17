@@ -24,9 +24,9 @@ class SentenceSegmentation(object):
 
     def sent_segment(self):
         """segmenting the sentence in the transcript"""
-        # with open('files/to passive-complex.txt', 'r') as file:
-        # with open('files/transcript_1.txt', 'r') as file:
-        with open('files/collection/selected 6 transcripts/7_2.Conjunctions.txt','r') as file:
+        with open('files/evaluation dataset collection/to passive-simple.txt', 'r') as file:
+        # with open('files/transcript collection/8/8.1 How prepositions function, problems with prepositions.txt', 'r') as file:
+
             # read the text file_transcript
             data = file.read()
             # tokenize the sent and replace the uneven line breaks
@@ -34,6 +34,7 @@ class SentenceSegmentation(object):
         # for sent in all_sent_list:
         #     print(sent)
         self.contraction_removal_obj.expand_contractions(all_sent_list)
+        # get the complete formatted paragraph
         self.print_para()
 
     @staticmethod

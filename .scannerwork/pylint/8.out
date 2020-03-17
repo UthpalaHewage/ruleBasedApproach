@@ -1,13 +1,14 @@
-************* Module replacement
-passive_conversion\replacement.py:9: [C0301(line-too-long), ] Line too long (109/100)
-passive_conversion\replacement.py:13: [C0301(line-too-long), ] Line too long (111/100)
-passive_conversion\replacement.py:1: [C0114(missing-module-docstring), ] Missing module docstring
-passive_conversion\replacement.py:3: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
-passive_conversion\replacement.py:6: [C0116(missing-function-docstring), replace_pronoun] Missing function or method docstring
-passive_conversion\replacement.py:8: [R1705(no-else-return), replace_pronoun] Unnecessary "else" after "return"
+************* Module final_output
+final_output.py:30: [C0301(line-too-long), ] Line too long (103/100)
+final_output.py:36: [C0301(line-too-long), ] Line too long (101/100)
+final_output.py:6: [R0205(useless-object-inheritance), FinalOutput] Class 'FinalOutput' inherits from object, can be safely removed from bases in python3
+final_output.py:15: [C0116(missing-function-docstring), FinalOutput.final_output] Missing function or method docstring
+final_output.py:16: [C0200(consider-using-enumerate), FinalOutput.final_output] Consider using enumerate instead of iterating with range and len
+final_output.py:24: [R0123(literal-comparison), FinalOutput.final_output] Comparison to literal
+final_output.py:6: [R0903(too-few-public-methods), FinalOutput] Too few public methods (1/2)
 
------------------------------------
+------------------------------------------------------------------
 
-Your code has been rated at 2.50/10
+Your code has been rated at 7.67/10 (previous run: 7.67/10, +0.00)
 
 

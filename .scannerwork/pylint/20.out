@@ -1,0 +1,37 @@
+************* Module sent_modifier
+tense_conversion\sent_modifier.py:47: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+            sentense[root_verb + 1:]).strip()
+
+            ^   |
+tense_conversion\sent_modifier.py:51: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+        sentense[root_verb + 1:]).strip()
+
+        ^   |
+tense_conversion\sent_modifier.py:59: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+            sentense[root_verb + 1:]).strip()
+
+            ^   |
+tense_conversion\sent_modifier.py:63: [C0301(line-too-long), ] Line too long (102/100)
+tense_conversion\sent_modifier.py:64: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+        sentense[root_verb + 1:]).strip()
+
+        ^   |
+tense_conversion\sent_modifier.py:72: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+            sentense[root_verb + 1:]).strip()
+
+            ^   |
+tense_conversion\sent_modifier.py:76: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+        sentense[root_verb + 1:]).strip()
+
+        ^   |
+tense_conversion\sent_modifier.py:7: [C0103(invalid-name), ] Constant name "inflect" doesn't conform to UPPER_CASE naming style
+tense_conversion\sent_modifier.py:10: [C0116(missing-function-docstring), modifier] Missing function or method docstring
+tense_conversion\sent_modifier.py:23: [R1719(simplifiable-if-expression), modifier] The if expression can be replaced with 'test'
+tense_conversion\sent_modifier.py:26: [R1705(no-else-return), modifier] Unnecessary "elif" after "return"
+tense_conversion\sent_modifier.py:26: [R0123(literal-comparison), modifier] Comparison to literal
+
+------------------------------------------------------------------
+
+Your code has been rated at 5.56/10 (previous run: 5.56/10, +0.00)
+
+

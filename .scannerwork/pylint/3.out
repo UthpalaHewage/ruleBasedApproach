@@ -1,10 +1,8 @@
-************* Module contraction_removal
-contraction_removal.py:44: [C0301(line-too-long), ] Line too long (105/100)
-contraction_removal.py:9: [R0205(useless-object-inheritance), ContractionRemoval] Class 'ContractionRemoval' inherits from object, can be safely removed from bases in python3
-contraction_removal.py:9: [R0903(too-few-public-methods), ContractionRemoval] Too few public methods (1/2)
+************* Module all_fact_list_keys
+Shared\all_fact_list_keys.py:16: [C0304(missing-final-newline), ] Final newline missing
 
 ------------------------------------------------------------------
 
-Your code has been rated at 8.50/10 (previous run: 8.42/10, +0.08)
+Your code has been rated at 8.57/10 (previous run: 8.57/10, +0.00)
 
 

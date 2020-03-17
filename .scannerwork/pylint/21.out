@@ -1,0 +1,16 @@
+************* Module word_filteration
+word_filteration.py:58: [C0301(line-too-long), ] Line too long (105/100)
+word_filteration.py:59: [C0301(line-too-long), ] Line too long (101/100)
+word_filteration.py:9: [C0103(invalid-name), ] Constant name "nlp" doesn't conform to UPPER_CASE naming style
+word_filteration.py:11: [C0103(invalid-name), ] Constant name "matcher" doesn't conform to UPPER_CASE naming style
+word_filteration.py:14: [R0205(useless-object-inheritance), WordFilteration] Class 'WordFilteration' inherits from object, can be safely removed from bases in python3
+word_filteration.py:34: [C0200(consider-using-enumerate), WordFilteration.remove_words_by_rule_based_matching] Consider using enumerate instead of iterating with range and len
+word_filteration.py:66: [R0123(literal-comparison), WordFilteration.remove_words_by_rule_based_matching] Comparison to literal
+word_filteration.py:29: [W0612(unused-variable), WordFilteration.remove_words_by_rule_based_matching] Unused variable 'filtered_list'
+word_filteration.py:14: [R0903(too-few-public-methods), WordFilteration] Too few public methods (1/2)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.57/10 (previous run: 7.57/10, +0.00)
+
+
